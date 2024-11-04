@@ -20,6 +20,8 @@ genius = lyricsgenius.Genius("MU1NzTyll8sLB8YkP5seL6C_HeBizO6skf6F0ibsPZcBMWH4Sq
 def detect_songs(songs,artists,max_retries=3,sleep_time=5):
     for attempt in range(max_retries):
         try:
+            if songs is None or artists is None:
+                return {'lyrics': None, 'language': None}
             song = genius.search_song(title=songs,artist=artists)
             if song is None or not song.lyrics:
                 return {'lyrics': None, 'language': None}
