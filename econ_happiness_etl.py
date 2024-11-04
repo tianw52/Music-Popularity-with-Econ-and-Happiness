@@ -194,14 +194,15 @@ def main(inputs, output):
     # Merge happiness data with economic data
     econ_happiness = final_econ.join(filtered_happiness, on=["year", "country"])
 
-    # Keep relevant rows in a sensible order to write to CSV
+    # Keep relevant rows in a sensible order to write to Parquet
     final_econ_happiness = econ_happiness[["year", "country", "country_code", \
                                         "gdp_per_capita", "inflation_rate", \
                                         "unemployment_rate", "happiness", \
                                         "global_inflation_rate", \
                                         "global_unemployment_rate"]]
 
-    final_econ_happiness.write.csv(output, mode="overwrite")
+    final_econ_happiness.write.partitionBy("country_code") \
+                        .parquet(output, mode="overwrite")
 
 # Sample command to run this code:
 # $ spark-submit --packages com.crealytics:spark-excel_2.12:0.13.5
