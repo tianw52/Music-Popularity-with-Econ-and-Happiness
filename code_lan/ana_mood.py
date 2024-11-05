@@ -1,12 +1,12 @@
-import pandas as pd
+
 import sys
 assert sys.version_info >= (3, 5) # make sure we have Python 3.5+
 from pyspark.sql import SparkSession, functions, types, Row
 from transformers import pipeline
-import torch
+
 
 sentiment_analyzer = pipeline("sentiment-analysis", model="Akazi/bert-base-multilingual-uncased")
-lan_t = ['en','nl','fr','de','it','es','pt','ja','ru','tr','ar','zh']
+
 
 @functions.udf(returnType=types.StructType([
     types.StructField('mood', types.StringType()),
@@ -24,9 +24,6 @@ def analyze_mood(lyrics):
         return {'mood': None,'scores':None}
 
 
-
-
-
 song_schema = types.StructType([
         types.StructField('track_id', types.StringType()),
         types.StructField('lyrics', types.StringType()),
@@ -38,8 +35,8 @@ def main(input,output):
     df = spark.read.json(input,schema=song_schema)
     songs_df = df.withColumn("mood_score", analyze_mood(df["lyrics"]))
     songs = songs_df.withColumn("mood", songs_df["mood_score"].getItem("mood")).withColumn("scores",songs_df["mood_score"].getItem("scores")).drop("mood_score","lyrics").cache()
-    songs.write.json(output, mode="overwrite")
-    #songs.select(songs['track_id'],songs['lyrics'],songs['language']).write.json(output, mode="append")
+    songs.write.json(output, mode="append")
+    #songs.select(songs['track_id'],songs['lyrics'],songs['language'],songs['scores']).write.json(output, mode="append")
 
     
 
