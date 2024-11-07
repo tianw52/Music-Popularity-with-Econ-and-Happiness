@@ -22,10 +22,25 @@ def main(input,output,output1):
 """)
     #combined_df.write.csv(output,mode='append',header=True)
     combined_df.write.csv(output,mode='append',header=True)
+    clean_df = spark.sql("""
+    SELECT language
+    FROM goup
+    where language != 'no'
+    group by language
+    having count(*) >10
+""")
+    clean_df.write.csv(output,mode='append',header=True)
+
     par_lan = spark.sql("""
     SELECT *
     FROM goup
-    where language is not NULL and lyrics is not NULL                        
+    where language is not NULL and lyrics is not NULL
+    and language !='no' 
+    and language in (SELECT language
+    FROM goup
+    where language != 'no'
+    group by language
+    having count(*) >10)                       
 """).cache()
     
     par_lan.coalesce(1).write.json(output, mode="append")
