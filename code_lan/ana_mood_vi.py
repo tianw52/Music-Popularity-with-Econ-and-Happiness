@@ -5,29 +5,25 @@ from pyspark.sql import SparkSession, functions, types, Row
 from transformers import pipeline
 
 
-sentiment_analyzer = pipeline("sentiment-analysis", model="nlptown/bert-base-multilingual-uncased-sentiment")
+sentiment_analyzer = pipeline("sentiment-analysis", model="mr4/phobert-base-vi-sentiment-analysis")
 
-
-def split_into_chunks(lyrics, chunk_size=512):
+def split_into_chunks(lyrics, chunk_size=256):
     return [lyrics[i:i+chunk_size] for i in range(0, len(lyrics), chunk_size)]
 
-@functions.udf(returnType=types.StringType())
+@functions.udf(returnType= types.StringType())
 def analyze_chunk(chunk):
-    result = sentiment_analyzer(chunk)
-    label = result[0]['label']
-    if label in ['4 stars', '5 stars']:
-        return 'positive'
-    elif label == '3 stars':
-        return 'neutral'
-    elif label in ['1 star', '2 stars']:
-        return 'negative'
-    return None
 
+    result = sentiment_analyzer(chunk)
+    if result[0]['label'] == 'Tiêu cực':
+        return 'negative'
+    elif result[0]['label'] =='Tích cực':
+        return 'positive'
+    else:
+        return 'neutral'
+    
 def main(input,output):
     df = spark.read.parquet(input)
-   
-    df1 = df.filter(df['language'].isin('fr', 'en', 'nl', 'it', 'es'))
-
+    df1 = df.filter(df['language']=='vi')
     # Register a UDF for splitting lyrics into chunks
     split_udf = functions.udf(split_into_chunks, functions.ArrayType(types.StringType()))
 
@@ -35,6 +31,7 @@ def main(input,output):
     df_chunks = df1.withColumn("chunks", functions.explode(split_udf(functions.col("lyrics"))))
     # Apply the sentiment analysis UDF to each chunk
     df_chunk_sentiments = df_chunks.withColumn("chunk_sentiment", analyze_chunk(functions.col("chunks")))
+
 
 # Aggregate sentiments per original lyrics row
     df_aggregated = (
@@ -55,8 +52,6 @@ def main(input,output):
 
     # Show the results
     df_aggregated.select("track_id","language","mood").write.partitionBy("language").parquet(output, mode="append")
-
-
     
 
 if __name__ == '__main__':
