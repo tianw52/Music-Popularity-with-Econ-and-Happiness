@@ -5,30 +5,29 @@ from pyspark.sql import SparkSession, functions, types, Row
 from transformers import pipeline
 
 
-sentiment_analyzer = pipeline("sentiment-analysis", model="mr4/phobert-base-vi-sentiment-analysis")
+sentiment_analyzer = pipeline("sentiment-analysis", model="WhitePeak/bert-base-cased-Korean-sentiment")
 
-def split_into_chunks(lyrics, chunk_size=256):
+def split_into_chunks(lyrics, chunk_size=512):
     return [lyrics[i:i+chunk_size] for i in range(0, len(lyrics), chunk_size)]
 
 @functions.udf(returnType= types.StringType())
 def analyze_chunk(chunk):
-
     result = sentiment_analyzer(chunk)
-    if result[0]['label'] == 'Tiêu cực':
+    if result[0]['label'] =='LABEL_0' and result[0]['score'] >= 0.6:
         return 'negative'
-    elif result[0]['label'] =='Tích cực':
+    elif result[0]['label'] =='LABEL_1' and result[0]['score'] >= 0.6:
         return 'positive'
-    elif result[0]['label'] == 'Trung tính':
+    elif (result[0]['label'] =='LABEL_1' or result[0]['label'] =='LABEL_0') and result[0]['score'] < 0.6:
         return 'neutral'
     return None
     
+    
 def main(input,output):
     df = spark.read.parquet(input)
-    df1 = df.filter(df['language']=='vi')
+    df1 = df.filter(df['language']=='ko')
+    #df1 = df1.limit(1)
     # Register a UDF for splitting lyrics into chunks
     split_udf = functions.udf(split_into_chunks, functions.ArrayType(types.StringType()))
-
-# Add chunks as a new column and explode to create a row for each chunk
     df_chunks = df1.withColumn("chunks", functions.explode(split_udf(functions.col("lyrics"))))
     # Apply the sentiment analysis UDF to each chunk
     df_chunk_sentiments = df_chunks.withColumn("chunk_sentiment", analyze_chunk(functions.col("chunks")))
@@ -52,8 +51,9 @@ def main(input,output):
 )
 
     # Show the results
+    #df_aggregated.show()
     df_aggregated.select("track_id","language","mood").write.partitionBy("language").parquet(output, mode="append")
-    
+
 
 if __name__ == '__main__':
     inputs = sys.argv[1]
