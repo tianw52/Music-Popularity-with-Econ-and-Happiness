@@ -1,0 +1,951 @@
+country,year,name,artists,rank,genre
+ar,2018,Adan y Eva,['Paulo Londra'],1,Reggaeton
+ar,2018,"Taki Taki (with Selena Gomez, Ozuna & Cardi B)","['DJ Snake', 'Selena Gomez', 'Ozuna', 'Cardi B']",2,Hybrid Trap
+ar,2018,Cuando Te Besé,"['Becky G', 'Paulo Londra']",3,Reggaeton
+ar,2018,MIA (feat. Drake),"['Bad Bunny', 'Drake']",4,Reggaeton
+ar,2018,Vaina Loca,"['Ozuna', 'Manuel Turizo']",5,Reggaeton
+ar,2018,Sin Culpa (feat. DrefQuila),"['Duki', 'DrefQuila']",6,Latin Rap
+ar,2018,Te Boté - Remix,"['Nio Garcia', 'Casper Magico', 'Bad Bunny', 'Darell', 'Ozuna', 'Nicky Jam']",7,Pop Rap
+ar,2018,Me Vas a Extrañar - En Vivo,"['Damas Gratis', 'Viru Kumbieron']",8,Cumbia Pop
+ar,2018,Toda - Remix,"['Alex Rose', 'Cazzu', 'Rauw Alejandro', 'Lenny Tavárez']",9,Contemporary R&B
+ar,2018,Ya No Tiene Novio,"['Sebastian Yatra', 'Mau y Ricky']",10,Reggaeton
+ar,2019,China,"['Anuel AA', 'Daddy Yankee', 'KAROL G', 'J Balvin', 'Ozuna']",1,Reggaeton
+ar,2019,Goteo,['Duki'],2,Trap
+ar,2019,Fresa,"['TINI', 'Lalo Ebratt']",3,Latin Pop
+ar,2019,RITMO (Bad Boys For Life),"['Black Eyed Peas', 'J Balvin']",4,Reggaeton
+ar,2019,CANGURO,['WOS'],5,Hip Hop
+ar,2019,Soltera (Remix),"['Lunay', 'Daddy Yankee', 'Bad Bunny']",6,Reggaeton
+ar,2019,Que Tire Pa Lante,['Daddy Yankee'],7,Reggaeton
+ar,2019,Leña para el Carbón,['DJ Alex'],8,Cumbia Pop
+ar,2019,Callaita,"['Bad Bunny', 'Tainy']",9,Reggaeton
+ar,2019,Tutu,"['Camilo', 'Pedro Capó']",10,Reggaeton
+ar,2020,DÁKITI,"['Bad Bunny', 'Jhay Cortez']",1,Dancehall
+ar,2020,Si Me Tomo Una Cerveza,"['Migrantes', 'Alico']",2,Cumbia Pop
+ar,2020,Hawái,['Maluma'],3,Reggaeton
+ar,2020,"Nathy Peluso: Bzrp Music Sessions, Vol. 36","['Bizarrap', 'NATHY PELUSO']",4,Hip Hop
+ar,2020,Bésame,"['El Reja', 'Lira']",5,Cumbia Pop
+ar,2020,BICHOTA,['KAROL G'],6,Reggaeton
+ar,2020,Vida de Rico,['Camilo'],7,Latin Pop
+ar,2020,Relación - Remix,"['Sech', 'Daddy Yankee', 'J Balvin', 'ROSALÍA', 'Farruko']",8,Reggaeton
+ar,2020,LA NOCHE DE ANOCHE,"['Bad Bunny', 'ROSALÍA']",9,Reggaeton
+ar,2020,Tattoo - Remix with Camilo,"['Rauw Alejandro', 'Camilo']",10,Latin Pop
+ar,2021,Bar,"['TINI', 'L-Gante']",1,Latin Pop
+ar,2021,Salimo de Noche,"['Tiago PZK', 'Trueno']",2,Reggaeton
+ar,2021,Entre Nosotros,"['Tiago PZK', 'LIT killah']",3,Contemporary R&B
+ar,2021,DANCE CRIP,['Trueno'],4,Funk Rap
+ar,2021,TITAN,['Salastkbron'],5,RKT
+ar,2021,Turraka - Remix,"['Kaleb Di Masi', 'Ecko', 'Papichamp', 'Blunted Vato', 'Bruno LC']",6,RKT
+ar,2021,como si no importara,"['Emilia', 'Duki']",7,Pop Rap
+ar,2021,Miénteme,"['TINI', 'Maria Becerra']",8,Reggaeton
+ar,2021,Qué Más Pues?,"['J Balvin', 'Maria Becerra']",9,Reggaeton
+ar,2021,Antes de Ti,"['Rusherking', 'Maria Becerra']",10,Latin Pop
+ar,2022,"Quevedo: Bzrp Music Sessions, Vol. 52","['Bizarrap', 'Quevedo']",1,Trap
+ar,2022,La Bachata,['Manuel Turizo'],2,Latin Pop
+ar,2022,DESPECHÁ,['ROSALÍA'],3,Latin Pop
+ar,2022,AUTOMÁTICO,['Maria Becerra'],4,Reggaeton
+ar,2022,cómo dormiste?,['Rels B'],5,Contemporary R&B
+ar,2022,Me Porto Bonito,"['Bad Bunny', 'Chencho Corleone']",6,Reggaeton
+ar,2022,Tu Turrito,"['Rei', 'Callejero Fino']",7,RKT
+ar,2022,GIVENCHY,['Duki'],8,Trap
+ar,2022,Ojitos Lindos,"['Bad Bunny', 'Bomba Estéreo']",9,Latin Pop
+ar,2022,CALLEJERO FINO | Mission 10,"['Alan Gomez', 'Callejero Fino']",10,RKT
+au,2018,"thank u, next",['Ariana Grande'],1,Contemporary R&B
+au,2018,Sunflower - Spider-Man: Into the Spider-Verse,"['Post Malone', 'Swae Lee']",2,Synthpop
+au,2018,Without Me,['Halsey'],3,Contemporary R&B
+au,2018,Eastside (with Halsey & Khalid),"['benny blanco', 'Halsey', 'Khalid']",4,Contemporary R&B
+au,2018,Be Alright,['Dean Lewis'],5,Folk Pop
+au,2018,Happier,"['Marshmello', 'Bastille']",6,Electropop
+au,2018,In My Feelings,['Drake'],7,Pop Rap
+au,2018,Youngblood,['5 Seconds of Summer'],8,Electropop
+au,2018,Better,['Khalid'],9,Alternative R&B
+au,2018,when the party's over,['Billie Eilish'],10,Art Pop
+au,2019,Circles,['Post Malone'],1,Indie Pop
+au,2019,Dance Monkey,['Tones And I'],2,Dance-Pop
+au,2019,ROXANNE,['Arizona Zervas'],3,Pop Rap
+au,2019,Don't Start Now,['Dua Lipa'],4,Dance-Pop
+au,2019,ME! (feat. Brendon Urie of Panic! At The Disco),"['Taylor Swift', 'Brendon Urie']",5,Pop
+au,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",6,Contemporary R&B
+au,2019,bad guy,['Billie Eilish'],7,Alternative Pop
+au,2019,Memories,['Maroon 5'],8,Contemporary R&B
+au,2019,Talk,"['Khalid', 'Disclosure']",9,House
+au,2019,everything i wanted,['Billie Eilish'],10,Ambient Pop
+au,2020,Mood (feat. iann dior),"['24kGoldn', 'iann dior']",1,Pop Rap
+au,2020,WAP (feat. Megan Thee Stallion),"['Cardi B', 'Megan Thee Stallion']",2,Trap
+au,2020,positions,['Ariana Grande'],3,Contemporary R&B
+au,2020,Blinding Lights,['The Weeknd'],4,Synthpop
+au,2020,ROCKSTAR (feat. Roddy Ricch),"['DaBaby', 'Roddy Ricch']",5,Trap
+au,2020,Therefore I Am,['Billie Eilish'],6,Electropop
+au,2020,Head & Heart (feat. MNEK),"['Joel Corry', 'MNEK']",7,Dance-Pop
+au,2020,SO DONE,['The Kid LAROI'],8,Pop Rap
+au,2020,Holy (feat. Chance The Rapper),"['Justin Bieber', 'Chance the Rapper']",9,Contemporary R&B
+au,2020,All I Want for Christmas Is You,['Mariah Carey'],10,Christmas
+au,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",1,Synthpop
+au,2021,Easy On Me,['Adele'],2,Adult Contemporary
+au,2021,good 4 u,['Olivia Rodrigo'],3,Pop Rock
+au,2021,Bad Habits,['Ed Sheeran'],4,Dance-Pop
+au,2021,Cold Heart - PNAU Remix,"['Elton John', 'Dua Lipa', 'PNAU']",5,Dance-Pop
+au,2021,Heat Waves,['Glass Animals'],6,Alternative Pop
+au,2021,INDUSTRY BABY (feat. Jack Harlow),"['Lil Nas X', 'Jack Harlow']",7,Trap
+au,2021,Shivers,['Ed Sheeran'],8,Dance-Pop
+au,2021,All I Want for Christmas Is You,['Mariah Carey'],9,Christmas
+au,2021,Kiss Me More (feat. SZA),"['Doja Cat', 'SZA']",10,Contemporary R&B
+au,2022,Anti-Hero,['Taylor Swift'],1,Synthpop
+au,2022,Unholy (feat. Kim Petras),"['Sam Smith', 'Kim Petras']",2,Trap
+au,2022,Lavender Haze,['Taylor Swift'],3,Alternative Pop
+au,2022,Kill Bill,['SZA'],4,Alternative Pop
+au,2022,As It Was,['Harry Styles'],5,Indie Pop
+au,2022,Midnight Rain,['Taylor Swift'],6,Alternative Pop
+au,2022,Maroon,['Taylor Swift'],7,Alternative Pop
+au,2022,Snow On The Beach (feat. Lana Del Rey),"['Taylor Swift', 'Lana Del Rey']",8,Alternative Pop
+au,2022,"You're On Your Own, Kid",['Taylor Swift'],9,Alternative Pop
+au,2022,Karma,['Taylor Swift'],10,Synthpop
+be,2018,In My Mind,\['Dynoro',1,House
+be,2018,"thank u, next",['Ariana Grande'],2,Contemporary R&B
+be,2018,"Taki Taki (with Selena Gomez, Ozuna & Cardi B)","['DJ Snake', 'Selena Gomez', 'Ozuna', 'Cardi B']",3,Hybrid Trap
+be,2018,One Kiss (with Dua Lipa),"['Calvin Harris', 'Dua Lipa']",4,Dance-Pop
+be,2018,Promises (with Sam Smith),"['Calvin Harris', 'Sam Smith', 'Jessie Reyez']",5,Dance-Pop
+be,2018,Verleden Tijd,"['Frenna', 'Lil Kleine']",6,Pop Rap
+be,2018,Be Alright,['Dean Lewis'],7,Folk Pop
+be,2018,All I Want for Christmas Is You,['Mariah Carey'],8,Christmas
+be,2018,Happier,"['Marshmello', 'Bastille']",9,Electropop
+be,2018,In My Feelings,['Drake'],10,Pop Rap
+be,2019,Dance Monkey,['Tones And I'],1,Dance-Pop
+be,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",2,Contemporary R&B
+be,2019,everything i wanted,['Billie Eilish'],3,Ambient Pop
+be,2019,bad guy,['Billie Eilish'],4,Alternative Pop
+be,2019,Hoe Het Danst,"['Marco Borsato', 'Armin van Buuren', 'Davina Michelle']",5,Dance-Pop
+be,2019,ROXANNE,['Arizona Zervas'],6,Pop Rap
+be,2019,Don't Start Now,['Dua Lipa'],7,Dance-Pop
+be,2019,Old Town Road (feat. Billy Ray Cyrus) - Remix,"['Lil Nas X', 'Billy Ray Cyrus']",8,Pop Rap
+be,2019,I Don't Care (with Justin Bieber),"['Ed Sheeran', 'Justin Bieber']",9,Afrobeats
+be,2019,Memories,['Maroon 5'],10,Contemporary R&B
+be,2020,Mood (feat. iann dior),"['24kGoldn', 'iann dior']",1,Pop Rap
+be,2020,Fever,"['Dua Lipa', 'Angèle']",2,Dance-Pop
+be,2020,Blinding Lights,['The Weeknd'],3,Synthpop
+be,2020,Bande organisée,"['Kofs', 'Soso Maness', 'Elams', 'Jul', 'SCH', 'Naps', 'Solda', 'Houari', '13 Organisé']",4,Trap
+be,2020,ROCKSTAR (feat. Roddy Ricch),"['DaBaby', 'Roddy Ricch']",5,Trap
+be,2020,Head & Heart (feat. MNEK),"['Joel Corry', 'MNEK']",6,Dance-Pop
+be,2020,Savage Love (Laxed - Siren Beat),"['Jawsh 685', 'Jason Derulo']",7,Dancehall
+be,2020,Roses - Imanbek Remix,"['SAINt JHN', 'Imanbek']",8,House
+be,2020,"Lemonade (feat. Gunna, Don Toliver & NAV)","['Internet Money', 'Gunna', 'Don Toliver', 'NAV']",9,Trap
+be,2020,Dance Monkey,['Tones And I'],10,Dance-Pop
+be,2021,Easy On Me,['Adele'],1,Adult Contemporary
+be,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",2,Synthpop
+be,2021,good 4 u,['Olivia Rodrigo'],3,Pop Rock
+be,2021,Jefe,['Ninho'],4,Trap
+be,2021,abcdefu,['GAYLE'],5,Alternative Pop
+be,2021,Pepas,['Farruko'],6,EDM
+be,2021,Waterval,['K3'],7,Belgian Pop
+be,2021,INDUSTRY BABY (feat. Jack Harlow),"['Lil Nas X', 'Jack Harlow']",8,Trap
+be,2021,Beggin',['Måneskin'],9,Funk Rock
+be,2021,Bad Habits,['Ed Sheeran'],10,Dance-Pop
+be,2022,Unholy (feat. Kim Petras),"['Sam Smith', 'Kim Petras']",1,Trap
+be,2022,As It Was,['Harry Styles'],2,Indie Pop
+be,2022,I'm Good (Blue),"['David Guetta', 'Bebe Rexha']",3,House
+be,2022,Anti-Hero,['Taylor Swift'],4,Synthpop
+be,2022,Miss You,"['Oliver Tree', 'Robin Schulz']",5,Alternative Pop
+be,2022,Doja,['Central Cee'],6,Hip Hop
+be,2022,Running Up That Hill (A Deal With God),['Kate Bush'],7,Synthpop
+be,2022,Ferrari,"['James Hype', 'Miggy Dela Rosa']",8,House
+be,2022,DIE,['Gazo'],9,Trap
+be,2022,Heat Waves,['Glass Animals'],10,Alternative Pop
+bg,2018,"thank u, next",['Ariana Grande'],1,Contemporary R&B
+bg,2018,"Taki Taki (with Selena Gomez, Ozuna & Cardi B)","['DJ Snake', 'Selena Gomez', 'Ozuna', 'Cardi B']",2,Hybrid Trap
+bg,2018,Without Me,['Halsey'],3,Contemporary R&B
+bg,2018,SICKO MODE,['Travis Scott'],4,Trap
+bg,2018,In My Feelings,['Drake'],5,Pop Rap
+bg,2018,Lucky You (feat. Joyner Lucas),"['Eminem', 'Joyner Lucas']",6,Hip Hop
+bg,2018,Arms Around You (feat. Maluma & Swae Lee),"['XXXTENTACION', 'Lil Pump', 'Swae Lee', 'Maluma']",7,Dance-Pop
+bg,2018,God is a woman,['Ariana Grande'],8,Contemporary R&B
+bg,2018,ZEZE (feat. Travis Scott & Offset),"['Kodak Black', 'Offset', 'Travis Scott']",9,Hip Hop
+bg,2018,I Love It (& Lil Pump),"['Kanye West', 'Lil Pump']",10,Pop Rap
+bg,2019,Heartless,['The Weeknd'],1,Pop Rap
+bg,2019,HIGHEST IN THE ROOM,['Travis Scott'],2,Pop Rap
+bg,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",3,Contemporary R&B
+bg,2019,Blinding Lights,['The Weeknd'],4,Synthpop
+bg,2019,bad guy,['Billie Eilish'],5,Alternative Pop
+bg,2019,everything i wanted,['Billie Eilish'],6,Ambient Pop
+bg,2019,Dance Monkey,['Tones And I'],7,Dance-Pop
+bg,2019,7 rings,['Ariana Grande'],8,Pop Rap
+bg,2019,Don't Start Now,['Dua Lipa'],9,Dance-Pop
+bg,2019,Old Town Road (feat. Billy Ray Cyrus) - Remix,"['Lil Nas X', 'Billy Ray Cyrus']",10,Pop Rap
+bg,2020,positions,['Ariana Grande'],1,Contemporary R&B
+bg,2020,WAP (feat. Megan Thee Stallion),"['Cardi B', 'Megan Thee Stallion']",2,Trap
+bg,2020,"Lemonade (feat. Gunna, Don Toliver & NAV)","['Internet Money', 'Gunna', 'Don Toliver', 'NAV']",3,Trap
+bg,2020,Blinding Lights,['The Weeknd'],4,Synthpop
+bg,2020,Therefore I Am,['Billie Eilish'],5,Electropop
+bg,2020,Gledai me,"['Gery-Nikol', 'Slatkaristika']",6,Dance-Pop
+bg,2020,HOLIDAY,['Lil Nas X'],7,Trap
+bg,2020,Prisoner (feat. Dua Lipa),"['Miley Cyrus', 'Dua Lipa']",8,Dance-Pop
+bg,2020,FRANCHISE (feat. Young Thug & M.I.A.),"['Travis Scott', 'Young Thug', 'M.I.A.']",9,Trap
+bg,2020,Roses - Imanbek Remix,"['SAINt JHN', 'Imanbek']",10,House
+bg,2021,А+Г=ВНЛ,"['Galena', 'Azis']",1,Pop Folk
+bg,2021,INDUSTRY BABY (feat. Jack Harlow),"['Lil Nas X', 'Jack Harlow']",2,Trap
+bg,2021,MONTERO (Call Me By Your Name),['Lil Nas X'],3,Pop Rap
+bg,2021,Beggin',['Måneskin'],4,Funk Rock
+bg,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",5,Synthpop
+bg,2021,Bad Habits,['Ed Sheeran'],6,Dance-Pop
+bg,2021,I WANNA BE YOUR SLAVE,['Måneskin'],7,Alternative Rock
+bg,2021,Enemy (with JID) - from the series Arcane League of Legends,"['Imagine Dragons', 'JID', 'Arcane', 'League of Legends']",8,Pop Rock
+bg,2021,Deja Vu,['SIMONA'],9,Alternative Pop
+bg,2021,Turbulence,"['Emilia', 'Florin Salam', 'Costi']",10,Pop
+bg,2022,Creepin' (with The Weeknd & 21 Savage),"['Metro Boomin', 'The Weeknd', '21 Savage']",1,Alternative R&B
+bg,2022,Unholy (feat. Kim Petras),"['Sam Smith', 'Kim Petras']",2,Trap
+bg,2022,Alcohol,"['Emilia', 'Galin']",3,Pop Folk
+bg,2022,PARALIA,"['V:RGO', 'EMIL TRF', 'FYRE', '2bona']",4,Hip Hop
+bg,2022,Anti-Hero,['Taylor Swift'],5,Synthpop
+bg,2022,I'm Good (Blue),"['David Guetta', 'Bebe Rexha']",6,House
+bg,2022,Welcome to Bulgaria,"['Galena', 'DJ Damyan', 'Costi']",7,Dance-Pop
+bg,2022,Euphoria,['Galena'],8,Pop
+bg,2022,As It Was,['Harry Styles'],9,Indie Pop
+bg,2022,Super Freaky Girl,['Nicki Minaj'],10,Pop Rap
+br,2018,Ciumeira - Ao Vivo,['Marília Mendonça'],1,Sertanejo
+br,2018,Atrasadinha - Ao Vivo,"['Felipe Araújo', 'Ferrugem']",2,Pop
+br,2018,Ao Vivo E A Cores,"['Matheus & Kauan', 'Anitta']",3,Pop
+br,2018,Veneno,['Anitta'],4,Pop
+br,2018,Parado no Bailão,"['MC L da Vinte', 'MC Gury']",5,Funk
+br,2018,Agora é Tudo Meu,"['DENNIS', 'MC Kevinho']",6,Funk
+br,2018,Largado Às Traças - Ao Vivo,['Zé Neto & Cristiano'],7,Sertanejo
+br,2018,O Bebê,"['MC Kevinho', 'MC Kekel']",8,Pop
+br,2018,Propaganda - Ao Vivo,['Jorge & Mateus'],9,Sertanejo
+br,2018,Só Pra Castigar,['Wesley Safadão'],10,Electronic forro
+br,2019,Liberdade Provisória - Ao Vivo,['Henrique & Juliano'],1,Sertanejo
+br,2019,Combatchy (feat. MC Rebecca),"['Anitta', 'Lexa', 'Luísa Sonza', 'Rebecca']",2,Funk
+br,2019,Surtada - Remix Brega Funk,"['Dadá Boladão', 'Tati Zaqui', 'OIK']",3,Pop Rap
+br,2019,Supera - Ao Vivo,['Marília Mendonça'],4,Sertanejo
+br,2019,Some que ele vem atrás,"['Anitta', 'Marília Mendonça']",5,Dance-Pop
+br,2019,Cheirosa - Ao Vivo,['Jorge & Mateus'],6,Sertanejo
+br,2019,SENTADÃO,"['PEDRO SAMPAIO', 'Felipe Original', 'JS o Mão de Ouro']",7,Funk
+br,2019,Hit Contagiante - Remix,"['Felipe Original', 'MC Kevin o Chris', 'Sodré', 'JS o Mão de Ouro']",8,Funk
+br,2019,quando a bad bater - ao vivo,['Luan Santana'],9,Sertanejo
+br,2019,Tijolão - Ao Vivo,['Jorge & Mateus'],10,Sertanejo
+br,2020,Amor ou o Litrão,"['Petter Ferraz', 'Menor Nico']",1,Electronic
+br,2020,Oh Juliana,['Niack'],2,Funk
+br,2020,Investe Em Mim,['Jonas Esticado'],3,Electronic forro
+br,2020,Meia Noite (Você tem meu Whatsapp),['Tarcísio do Acordeon'],4,Piseiro
+br,2020,Ilusão (Cracolândia),"['MC Hariel', 'Alok', 'Djay W', 'Mc Davi', 'MC Ryan SP', 'Salvador Da Rima']",5,Pop Rap
+br,2020,Lance Individual,['Jorge & Mateus'],6,Sertanejo
+br,2020,De Menina pra Mulher - Ao Vivo,['Gusttavo Lima'],7,Sertanejo
+br,2020,Recairei - Ao Vivo,['Os Barões Da Pisadinha'],8,Piseiro
+br,2020,Desce Pro Play (PA PA PA),"['ZAAC', 'Anitta', 'Tyga']",9,Pop Rap
+br,2020,Só Você,['MC Rogerinho'],10,Funk
+br,2021,Esqueça-Me Se For Capaz,"['Marília Mendonça', 'Maiara & Maraisa']",1,Piseiro
+br,2021,Arranhão - Ao Vivo,['Henrique & Juliano'],2,Pop Rock
+br,2021,Coração Cachorro,"['Avine Vinny', 'Matheus Fernandes']",3,Electronic forro
+br,2021,Meu Pedaço de Pecado,['João Gomes'],4,Piseiro
+br,2021,Presepada,"['Marília Mendonça', 'Maiara & Maraisa']",5,Sertanejo
+br,2021,Toma Toma Vapo Vapo,"['Zé Felipe', 'Mc Danny']",6,Piseiro
+br,2021,Vai Lá Em Casa Hoje,"['George Henrique & Rodrigo', 'Marília Mendonça']",7,Sertanejo
+br,2021,Revoada No Colchão,"['Zé Felipe', 'Marcynho Sensação']",8,Piseiro
+br,2021,Ela e Ela,['Zé Neto & Cristiano'],9,Sertanejo
+br,2021,Ameaça,"['Paulo Pires', 'Mc Danny', 'Marcynho Sensação']",10,Piseiro
+br,2022,Eu Gosto Assim - Ao Vivo,"['Gustavo Mioto', 'Mari Fernandez']",1,Piseiro
+br,2022,Haja Colírio (feat. Hugo & Guilherme) - Ao Vivo,"['Guilherme & Benuto', 'Hugo & Guilherme']",2,Sertanejo
+br,2022,Mal Feito - Ao Vivo,"['Hugo & Guilherme', 'Marília Mendonça']",3,Sertanejo
+br,2022,Casei Com a Putaria,"['Mc Paiva ZS', 'MC Ryan SP', 'Kotim']",4,Trap Funk
+br,2022,Ai Preto,"['L7NNON', 'DJ Biel do Furduncinho', 'Bianca']",5,Funk
+br,2022,Poesia Acústica 13,"['Pineapple StormTv', 'Chris MC', 'Salve Malak', 'Tz da Coronel', 'MC Cabelinho', 'Chefin', 'L7NNON', 'Luísa Sonza', 'Oruam', 'Xamã', 'N.I.N.A']",6,Trap
+br,2022,Pipoco,"['Ana Castela', 'Melody', 'Dj Chris No Beat']",7,Funk
+br,2022,Felina,"['WIU', 'MC Ryan SP']",8,Pop Rap
+br,2022,Malvadão 3,"['Xamã', 'Gustah', 'Neo Beats', 'Bagua Records']",9,Pop Rap
+br,2022,Sereia,"['Orochi', 'MC Ryan SP', 'Oruam', 'Xamã', 'Neo Beats', 'Kizzy', 'Mainstreet']",10,Trap
+ca,2018,"thank u, next",['Ariana Grande'],1,Contemporary R&B
+ca,2018,ZEZE (feat. Travis Scott & Offset),"['Kodak Black', 'Offset', 'Travis Scott']",2,Hip Hop
+ca,2018,Going Bad (feat. Drake),"['Meek Mill', 'Drake']",3,Trap
+ca,2018,In My Feelings,['Drake'],4,Pop Rap
+ca,2018,SICKO MODE,['Travis Scott'],5,Trap
+ca,2018,Sunflower - Spider-Man: Into the Spider-Verse,"['Post Malone', 'Swae Lee']",6,Synthpop
+ca,2018,God's Plan,['Drake'],7,Pop Rap
+ca,2018,Without Me,['Halsey'],8,Contemporary R&B
+ca,2018,Better Now,['Post Malone'],9,Pop Rap
+ca,2018,Happier,"['Marshmello', 'Bastille']",10,Electropop
+ca,2019,Circles,['Post Malone'],1,Indie Pop
+ca,2019,HIGHEST IN THE ROOM,['Travis Scott'],2,Pop Rap
+ca,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",3,Contemporary R&B
+ca,2019,ROXANNE,['Arizona Zervas'],4,Pop Rap
+ca,2019,Blinding Lights,['The Weeknd'],5,Synthpop
+ca,2019,ME! (feat. Brendon Urie of Panic! At The Disco),"['Taylor Swift', 'Brendon Urie']",6,Pop
+ca,2019,Heartless,['The Weeknd'],7,Pop Rap
+ca,2019,Old Town Road (feat. Billy Ray Cyrus) - Remix,"['Lil Nas X', 'Billy Ray Cyrus']",8,Pop Rap
+ca,2019,bad guy,['Billie Eilish'],9,Alternative Pop
+ca,2019,Money In The Grave (Drake ft. Rick Ross),"['Drake', 'Rick Ross']",10,Trap
+ca,2020,Mood (feat. iann dior),"['24kGoldn', 'iann dior']",1,Pop Rap
+ca,2020,WAP (feat. Megan Thee Stallion),"['Cardi B', 'Megan Thee Stallion']",2,Trap
+ca,2020,ROCKSTAR (feat. Roddy Ricch),"['DaBaby', 'Roddy Ricch']",3,Trap
+ca,2020,All I Want for Christmas Is You,['Mariah Carey'],4,Christmas
+ca,2020,positions,['Ariana Grande'],5,Contemporary R&B
+ca,2020,"Lemonade (feat. Gunna, Don Toliver & NAV)","['Internet Money', 'Gunna', 'Don Toliver', 'NAV']",6,Trap
+ca,2020,willow,['Taylor Swift'],7,Folk Pop
+ca,2020,Rockin' Around The Christmas Tree,['Brenda Lee'],8,Christmas
+ca,2020,Laugh Now Cry Later (feat. Lil Durk),"['Drake', 'Lil Durk']",9,Trap
+ca,2020,Blinding Lights,['The Weeknd'],10,Synthpop
+ca,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",1,Synthpop
+ca,2021,Easy On Me,['Adele'],2,Adult Contemporary
+ca,2021,INDUSTRY BABY (feat. Jack Harlow),"['Lil Nas X', 'Jack Harlow']",3,Trap
+ca,2021,good 4 u,['Olivia Rodrigo'],4,Pop Rock
+ca,2021,Bad Habits,['Ed Sheeran'],5,Dance-Pop
+ca,2021,Rockin' Around The Christmas Tree,['Brenda Lee'],6,Christmas
+ca,2021,MONTERO (Call Me By Your Name),['Lil Nas X'],7,Pop Rap
+ca,2021,Shivers,['Ed Sheeran'],8,Dance-Pop
+ca,2021,Way 2 Sexy (with Future & Young Thug),"['Drake', 'Future', 'Young Thug']",9,Trap
+ca,2021,All I Want for Christmas Is You,['Mariah Carey'],10,Christmas
+ca,2022,Anti-Hero,['Taylor Swift'],1,Synthpop
+ca,2022,Kill Bill,['SZA'],2,Alternative Pop
+ca,2022,Lavender Haze,['Taylor Swift'],3,Alternative Pop
+ca,2022,Unholy (feat. Kim Petras),"['Sam Smith', 'Kim Petras']",4,Trap
+ca,2022,Creepin' (with The Weeknd & 21 Savage),"['Metro Boomin', 'The Weeknd', '21 Savage']",5,Alternative R&B
+ca,2022,Midnight Rain,['Taylor Swift'],6,Alternative Pop
+ca,2022,Maroon,['Taylor Swift'],7,Alternative Pop
+ca,2022,Snow On The Beach (feat. Lana Del Rey),"['Taylor Swift', 'Lana Del Rey']",8,Alternative Pop
+ca,2022,"You're On Your Own, Kid",['Taylor Swift'],9,Alternative Pop
+ca,2022,Karma,['Taylor Swift'],10,Synthpop
+gb,2018,"thank u, next",['Ariana Grande'],1,Contemporary R&B
+gb,2018,All I Want for Christmas Is You,['Mariah Carey'],2,Christmas
+gb,2018,Last Christmas,['Wham!'],3,Christmas
+gb,2018,In My Feelings,['Drake'],4,Pop Rap
+gb,2018,Promises (with Sam Smith),"['Calvin Harris', 'Sam Smith', 'Jessie Reyez']",5,Dance-Pop
+gb,2018,One Kiss (with Dua Lipa),"['Calvin Harris', 'Dua Lipa']",6,Dance-Pop
+gb,2018,Do They Know It's Christmas? - 1984 Version,['Band Aid'],7,Christmas
+gb,2018,Funky Friday,"['Dave', 'Fredo']",8,Trap
+gb,2018,Eastside (with Halsey & Khalid),"['benny blanco', 'Halsey', 'Khalid']",9,Contemporary R&B
+gb,2018,Rockin' Around The Christmas Tree,['Brenda Lee'],10,Christmas
+gb,2019,Own It (feat. Ed Sheeran & Burna Boy),"['Stormzy', 'Burna Boy', 'Ed Sheeran']",1,Afrobeats
+gb,2019,Dance Monkey,['Tones And I'],2,Dance-Pop
+gb,2019,Don't Start Now,['Dua Lipa'],3,Dance-Pop
+gb,2019,Before You Go,['Lewis Capaldi'],4,Adult Contemporary
+gb,2019,ME! (feat. Brendon Urie of Panic! At The Disco),"['Taylor Swift', 'Brendon Urie']",5,Pop
+gb,2019,Someone You Loved,['Lewis Capaldi'],6,Adult Contemporary
+gb,2019,All I Want for Christmas Is You,['Mariah Carey'],7,Christmas
+gb,2019,ROXANNE,['Arizona Zervas'],8,Pop Rap
+gb,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",9,Contemporary R&B
+gb,2019,Last Christmas,['Wham!'],10,Christmas
+gb,2020,All I Want for Christmas Is You,['Mariah Carey'],1,Christmas
+gb,2020,Last Christmas,['Wham!'],2,Christmas
+gb,2020,Mood (feat. iann dior),"['24kGoldn', 'iann dior']",3,Pop Rap
+gb,2020,Head & Heart (feat. MNEK),"['Joel Corry', 'MNEK']",4,Dance-Pop
+gb,2020,Rockin' Around The Christmas Tree,['Brenda Lee'],5,Christmas
+gb,2020,positions,['Ariana Grande'],6,Contemporary R&B
+gb,2020,It's Beginning to Look a Lot like Christmas,['Michael Bublé'],7,Christmas
+gb,2020,Blinding Lights,['The Weeknd'],8,Synthpop
+gb,2020,WAP (feat. Megan Thee Stallion),"['Cardi B', 'Megan Thee Stallion']",9,Trap
+gb,2020,Santa Tell Me,['Ariana Grande'],10,Christmas
+gb,2021,Easy On Me,['Adele'],1,Adult Contemporary
+gb,2021,good 4 u,['Olivia Rodrigo'],2,Pop Rock
+gb,2021,Bad Habits,['Ed Sheeran'],3,Dance-Pop
+gb,2021,Last Christmas,['Wham!'],4,Christmas
+gb,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",5,Synthpop
+gb,2021,Shivers,['Ed Sheeran'],6,Dance-Pop
+gb,2021,All I Want for Christmas Is You,['Mariah Carey'],7,Christmas
+gb,2021,Merry Christmas Everyone,"\[\""\""Shakin' Stevens\""\""]\""""",8,Christmas
+gb,2021,Merry Christmas,"['Ed Sheeran', 'Elton John']",9,Christmas
+gb,2021,Rockin' Around The Christmas Tree,['Brenda Lee'],10,Christmas
+gb,2022,Anti-Hero,['Taylor Swift'],1,Synthpop
+gb,2022,Unholy (feat. Kim Petras),"['Sam Smith', 'Kim Petras']",2,Trap
+gb,2022,As It Was,['Harry Styles'],3,Indie Pop
+gb,2022,Lavender Haze,['Taylor Swift'],4,Alternative Pop
+gb,2022,Running Up That Hill (A Deal With God),['Kate Bush'],5,Synthpop
+gb,2022,Snow On The Beach (feat. Lana Del Rey),"['Taylor Swift', 'Lana Del Rey']",6,Alternative Pop
+gb,2022,"You're On Your Own, Kid",['Taylor Swift'],7,Alternative Pop
+gb,2022,I'm Good (Blue),"['David Guetta', 'Bebe Rexha']",8,House
+gb,2022,Maroon,['Taylor Swift'],9,Alternative Pop
+gb,2022,Midnight Rain,['Taylor Swift'],10,Alternative Pop
+global,2018,"thank u, next",['Ariana Grande'],1,Contemporary R&B
+global,2018,"Taki Taki (with Selena Gomez, Ozuna & Cardi B)","['DJ Snake', 'Selena Gomez', 'Ozuna', 'Cardi B']",2,Hybrid Trap
+global,2018,In My Feelings,['Drake'],3,Pop Rap
+global,2018,MIA (feat. Drake),"['Bad Bunny', 'Drake']",4,Reggaeton
+global,2018,God's Plan,['Drake'],5,Pop Rap
+global,2018,Sunflower - Spider-Man: Into the Spider-Verse,"['Post Malone', 'Swae Lee']",6,Synthpop
+global,2018,Happier,"['Marshmello', 'Bastille']",7,Electropop
+global,2018,Without Me,['Halsey'],8,Contemporary R&B
+global,2018,ZEZE (feat. Travis Scott & Offset),"['Kodak Black', 'Offset', 'Travis Scott']",9,Hip Hop
+global,2018,All I Want for Christmas Is You,['Mariah Carey'],10,Christmas
+global,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",1,Contemporary R&B
+global,2019,Dance Monkey,['Tones And I'],2,Dance-Pop
+global,2019,Circles,['Post Malone'],3,Indie Pop
+global,2019,ME! (feat. Brendon Urie of Panic! At The Disco),"['Taylor Swift', 'Brendon Urie']",4,Pop
+global,2019,bad guy,['Billie Eilish'],5,Alternative Pop
+global,2019,ROXANNE,['Arizona Zervas'],6,Pop Rap
+global,2019,Memories,['Maroon 5'],7,Contemporary R&B
+global,2019,HIGHEST IN THE ROOM,['Travis Scott'],8,Pop Rap
+global,2019,Don't Start Now,['Dua Lipa'],9,Dance-Pop
+global,2019,I Don't Care (with Justin Bieber),"['Ed Sheeran', 'Justin Bieber']",10,Afrobeats
+global,2020,DÁKITI,"['Bad Bunny', 'Jhayco']",1,Dancehall
+global,2020,Blinding Lights,['The Weeknd'],2,Synthpop
+global,2020,positions,['Ariana Grande'],3,Contemporary R&B
+global,2020,Mood (feat. iann dior),"['24kGoldn', 'iann dior']",4,Pop Rap
+global,2020,WAP (feat. Megan Thee Stallion),"['Cardi B', 'Megan Thee Stallion']",5,Trap
+global,2020,Dynamite,['BTS'],6,Dance-Pop
+global,2020,ROCKSTAR (feat. Roddy Ricch),"['DaBaby', 'Roddy Ricch']",7,Trap
+global,2020,Therefore I Am,['Billie Eilish'],8,Electropop
+global,2020,Dance Monkey,['Tones And I'],9,Dance-Pop
+global,2020,LA NOCHE DE ANOCHE,"['Bad Bunny', 'ROSALÍA']",10,Reggaeton
+global,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",1,Synthpop
+global,2021,Easy On Me,['Adele'],2,Adult Contemporary
+global,2021,INDUSTRY BABY (feat. Jack Harlow),"['Lil Nas X', 'Jack Harlow']",3,Trap
+global,2021,good 4 u,['Olivia Rodrigo'],4,Pop Rock
+global,2021,Bad Habits,['Ed Sheeran'],5,Dance-Pop
+global,2021,MONTERO (Call Me By Your Name),['Lil Nas X'],6,Pop Rap
+global,2021,Beggin',['Måneskin'],7,Funk Rock
+global,2021,abcdefu,['GAYLE'],8,Alternative Pop
+global,2021,Shivers,['Ed Sheeran'],9,Dance-Pop
+global,2021,All I Want for Christmas Is You,['Mariah Carey'],10,Christmas
+global,2022,Anti-Hero,['Taylor Swift'],1,Synthpop
+global,2022,Unholy (feat. Kim Petras),"['Sam Smith', 'Kim Petras']",2,Trap
+global,2022,As It Was,['Harry Styles'],3,Indie Pop
+global,2022,Lavender Haze,['Taylor Swift'],4,Alternative Pop
+global,2022,Kill Bill,['SZA'],5,Alternative Pop
+global,2022,"Quevedo: Bzrp Music Sessions, Vol. 52","['Bizarrap', 'Quevedo']",6,Trap
+global,2022,Midnight Rain,['Taylor Swift'],7,Alternative Pop
+global,2022,Snow On The Beach (feat. Lana Del Rey),"['Taylor Swift', 'Lana Del Rey']",8,Alternative Pop
+global,2022,Maroon,['Taylor Swift'],9,Alternative Pop
+global,2022,"You're On Your Own, Kid",['Taylor Swift'],10,Alternative Pop
+hk,2018,"thank u, next",['Ariana Grande'],1,Contemporary R&B
+hk,2018,Shallow,"['Lady Gaga', 'Bradley Cooper']",2,Contemporary Country
+hk,2018,Sunflower - Spider-Man: Into the Spider-Verse,"['Post Malone', 'Swae Lee']",3,Synthpop
+hk,2018,有一種悲傷 - 電影《比悲傷更悲傷的故事》主題曲,['A-Lin'],4,Mandopop
+hk,2018,Without Me,['Halsey'],5,Contemporary R&B
+hk,2018,Always Remember Us This Way,['Lady Gaga'],6,Adult Contemporary
+hk,2018,SOLO,['JENNIE'],7,K-Pop
+hk,2018,Girls Like You (feat. Cardi B) - Cardi B Version,"['Maroon 5', 'Cardi B']",8,Contemporary R&B
+hk,2018,All I Want for Christmas Is You,['Mariah Carey'],9,Christmas
+hk,2018,龍舌蘭,"['Eason Chan', 'eason and the duo band']",10,Cantopop
+hk,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",1,Contemporary R&B
+hk,2019,ME! (feat. Brendon Urie of Panic! At The Disco),"['Taylor Swift', 'Brendon Urie']",2,Pop
+hk,2019,Memories,['Maroon 5'],3,Contemporary R&B
+hk,2019,說好不哭,"['Jay Chou', 'Ashin Chen']",4,Mandopop
+hk,2019,everything i wanted,['Billie Eilish'],5,Ambient Pop
+hk,2019,Circles,['Post Malone'],6,Indie Pop
+hk,2019,Beautiful People (feat. Khalid),"['Ed Sheeran', 'Khalid']",7,Contemporary R&B
+hk,2019,Don't Start Now,['Dua Lipa'],8,Dance-Pop
+hk,2019,ROXANNE,['Arizona Zervas'],9,Pop Rap
+hk,2019,bad guy,['Billie Eilish'],10,Alternative Pop
+hk,2020,是但求其愛,['Eason Chan'],1,Cantopop
+hk,2020,Lovesick Girls,['BLACKPINK'],2,Electropop
+hk,2020,Dynamite,['BTS'],3,Dance-Pop
+hk,2020,How You Like That,['BLACKPINK'],4,Trap
+hk,2020,positions,['Ariana Grande'],5,Contemporary R&B
+hk,2020,Life Goes On,['BTS'],6,Contemporary R&B
+hk,2020,銀河修理員,['Dear Jane'],7,Pop Rock
+hk,2020,時光倒流一句話,['Terence Lam'],8,Cantopop
+hk,2020,一人之境 in C major,['Terence Lam'],9,Cantopop
+hk,2020,炎,['LiSA'],10,Pop Rock
+hk,2021,記憶棉,['MC 張天賦'],1,Cantopop
+hk,2021,時候不早,['MC 張天賦'],2,Cantopop
+hk,2021,在空中的這一秒,['Terence Lam'],3,Cantopop
+hk,2021,一表人才,"['Edan 呂爵安', 'Feng Ze']",4,Cantopop
+hk,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",5,Synthpop
+hk,2021,係咁先啦 (feat. Kayan9896),['MC $oho & KidNey'],6,Cantopop
+hk,2021,小諧星,['Edan 呂爵安'],7,Cantopop
+hk,2021,反對無效,['MC 張天賦'],8,Contemporary R&B
+hk,2021,"Dear My Friend,",['Keung To'],9,Adult Contemporary
+hk,2021,E先生 連環不幸事件,['Edan 呂爵安'],10,Cantopop
+hk,2022,風雨不改 (電影《阿媽有咗第二個》主題曲),['Keung To'],1,Cantopop
+hk,2022,到底發生過什麼事,['Dear Jane'],2,Cantopop
+hk,2022,老派約會之必要,['MC 張天賦'],3,Cantopop
+hk,2022,作品的說話,['Keung To'],4,Cantopop
+hk,2022,"Dear My Friend,",['Keung To'],5,Adult Contemporary
+hk,2022,鏡中鏡,['Keung To'],6,Trap
+hk,2022,King Kong,['Anson Lo 盧瀚霆'],7,Cantopop
+hk,2022,地球上的最後一朵花,['陳卓賢 Ian'],8,Cantopop
+hk,2022,記憶棉,['MC 張天賦'],9,Cantopop
+hk,2022,Pink Venom,['BLACKPINK'],10,Pop Rap
+hn,2018,MIA (feat. Drake),"['Bad Bunny', 'Drake']",1,Reggaeton
+hn,2018,"Taki Taki (with Selena Gomez, Ozuna & Cardi B)","['DJ Snake', 'Selena Gomez', 'Ozuna', 'Cardi B']",2,Hybrid Trap
+hn,2018,Te Boté - Remix,"['Nio Garcia', 'Casper Magico', 'Bad Bunny', 'Darell', 'Ozuna', 'Nicky Jam']",3,Pop Rap
+hn,2018,Bubalu,"['Becky G', 'Prince Royce', 'DJ Luian', 'Mambo Kingz', 'Anuel AA']",4,Trap
+hn,2018,BEBE,"['6ix9ine', 'Anuel AA']",5,Reggaeton
+hn,2018,Vaina Loca,"['Ozuna', 'Manuel Turizo']",6,Reggaeton
+hn,2018,Ella Quiere Beber - Remix,"['Anuel AA', 'Romeo Santos']",7,Reggaeton
+hn,2018,Adan y Eva,['Paulo Londra'],8,Reggaeton
+hn,2018,Calma - Remix,"['Pedro Capó', 'Farruko']",9,Latin Pop
+hn,2018,Culpables,"['KAROL G', 'Anuel AA']",10,Reggaeton
+hn,2019,Vete,['Bad Bunny'],1,Reggaeton
+hn,2019,Tusa,"['KAROL G', 'Nicki Minaj']",2,Reggaeton
+hn,2019,LA CANCIÓN,"['J Balvin', 'Bad Bunny']",3,Reggaeton
+hn,2019,Callaita,"['Bad Bunny', 'Tainy']",4,Reggaeton
+hn,2019,China,"['Anuel AA', 'Daddy Yankee', 'KAROL G', 'J Balvin', 'Ozuna']",5,Reggaeton
+hn,2019,Soltera (Remix),"['Lunay', 'Daddy Yankee', 'Bad Bunny']",6,Reggaeton
+hn,2019,RITMO (Bad Boys For Life),"['Black Eyed Peas', 'J Balvin']",7,Reggaeton
+hn,2019,Otro Trago,"['Sech', 'Darell']",8,Reggaeton
+hn,2019,No Me Conoce - Remix,"['Jhayco', 'J Balvin', 'Bad Bunny']",9,Reggaeton
+hn,2019,Que Tire Pa Lante,['Daddy Yankee'],10,Reggaeton
+hn,2020,DÁKITI,"['Bad Bunny', 'Jhayco']",1,Dancehall
+hn,2020,LA NOCHE DE ANOCHE,"['Bad Bunny', 'ROSALÍA']",2,Reggaeton
+hn,2020,TE MUDASTE,['Bad Bunny'],3,Reggaeton
+hn,2020,Hawái,['Maluma'],4,Reggaeton
+hn,2020,BICHOTA,['KAROL G'],5,Reggaeton
+hn,2020,HACIENDO QUE ME AMAS,['Bad Bunny'],6,Emo Rap
+hn,2020,BOOKER T,['Bad Bunny'],7,Trap
+hn,2020,La Jeepeta - Remix,"['Nio Garcia', 'Anuel AA', 'Myke Towers', 'Brray', 'Juanka']",8,Reggaeton
+hn,2020,La Curiosidad,"['Jay Wheeler', 'DJ Nelson', 'Myke Towers']",9,Reggaeton
+hn,2020,YO VISTO ASÍ,['Bad Bunny'],10,Emo Rap
+hn,2021,Yonaguni,['Bad Bunny'],1,Pop Rap
+hn,2021,Lo Siento BB:/ (with Bad Bunny & Julieta Venegas),"['Tainy', 'Bad Bunny', 'Julieta Venegas']",2,Reggaeton
+hn,2021,Todo De Ti,['Rauw Alejandro'],3,Dance-Pop
+hn,2021,DÁKITI,"['Bad Bunny', 'Jhay Cortez']",4,Dancehall
+hn,2021,Volví,"['Aventura', 'Bad Bunny']",5,Reggaeton
+hn,2021,AM Remix,"['Nio Garcia', 'J Balvin', 'Bad Bunny']",6,Reggaeton
+hn,2021,Volando - Remix,"['Mora', 'Bad Bunny', 'Sech']",7,Dancehall
+hn,2021,Pepas,['Farruko'],8,EDM
+hn,2021,Fiel,"['Los Legendarios', 'Wisin', 'Jhayco']",9,Dembow
+hn,2021,Qué Más Pues?,"['J Balvin', 'Maria Becerra']",10,Reggaeton
+hn,2022,Me Porto Bonito,"['Bad Bunny', 'Chencho Corleone']",1,Reggaeton
+hn,2022,Tití Me Preguntó,['Bad Bunny'],2,Dembow
+hn,2022,Ojitos Lindos,"['Bad Bunny', 'Bomba Estéreo']",3,Latin Pop
+hn,2022,Efecto,['Bad Bunny'],4,Reggaeton
+hn,2022,Moscow Mule,['Bad Bunny'],5,Reggaeton
+hn,2022,"Quevedo: Bzrp Music Sessions, Vol. 52","['Bizarrap', 'Quevedo']",6,Trap
+hn,2022,Party,"['Bad Bunny', 'Rauw Alejandro']",7,Reggaeton
+hn,2022,Neverita,['Bad Bunny'],8,Dance-Pop
+hn,2022,Tarot,"['Bad Bunny', 'Jhayco']",9,Reggaeton
+hn,2022,La Bachata,['Manuel Turizo'],10,Latin Pop
+jp,2018,今夜このまま,['Aimyon'],1,Indie Pop
+jp,2018,Stand Out Fit In,['ONE OK ROCK'],2,Electropop
+jp,2018,"thank u, next",['Ariana Grande'],3,Contemporary R&B
+jp,2018,All I Want for Christmas Is You,['Mariah Carey'],4,Christmas
+jp,2018,YES or YES,['TWICE'],5,Dance-Pop
+jp,2018,Bohemian Rhapsody - Remastered 2011,['Queen'],6,Progressive Rock
+jp,2018,U.S.A.,['DA PUMP'],7,Dance-Pop
+jp,2018,Santa Tell Me,['Ariana Grande'],8,Christmas
+jp,2018,打上花火,"['Daoko', 'Kenshi Yonezu']",9,Contemporary R&B
+jp,2018,Shape of You,['Ed Sheeran'],10,Dance-Pop
+jp,2019,Pretender,['Official HIGE DANdism'],1,J-Pop
+jp,2019,宿命,['Official HIGE DANdism'],2,J-Pop
+jp,2019,イエスタデイ,['Official HIGE DANdism'],3,J-Pop
+jp,2019,マリーゴールド,['Aimyon'],4,Indie Pop
+jp,2019,白日,['King Gnu'],5,J-Pop
+jp,2019,まちがいさがし,['Masaki Suda'],6,J-Pop
+jp,2019,傘,['King Gnu'],7,Alternative Rock
+jp,2019,Turning Up,['ARASHI'],8,J-Pop
+jp,2019,飛行艇,['King Gnu'],9,J-Pop
+jp,2019,君はロックを聴かない,['Aimyon'],10,Japanese Rock
+jp,2020,炎,['LiSA'],1,Pop Rock
+jp,2020,Dynamite,['BTS'],2,Dance-Pop
+jp,2020,夜に駆ける,['YOASOBI'],3,Yakousei
+jp,2020,虹,['Masaki Suda'],4,J-Pop
+jp,2020,香水,['Eito'],5,J-Pop
+jp,2020,Make you happy,['NiziU'],6,EDM
+jp,2020,ドライフラワー,['Yuuri'],7,Japanese Rock
+jp,2020,感電,['Kenshi Yonezu'],8,J-Pop
+jp,2020,Pretender,['Official HIGE DANdism'],9,J-Pop
+jp,2020,Step and a step,['NiziU'],10,EDM
+jp,2021,ドライフラワー,['Yuuri'],1,Japanese Rock
+jp,2021,Butter,['BTS'],2,Dance-Pop
+jp,2021,Dynamite,['BTS'],3,Dance-Pop
+jp,2021,Permission to Dance,['BTS'],4,Contemporary R&B
+jp,2021,夜に駆ける,['YOASOBI'],5,Yakousei
+jp,2021,一途,['King Gnu'],6,Alternative Rock
+jp,2021,ベテルギウス,['Yuuri'],7,Japanese Rock
+jp,2021,怪物,['YOASOBI'],8,J-Pop
+jp,2021,水平線,['back number'],9,Pop Rock
+jp,2021,きらり,['Fujii Kaze'],10,Nu-Disco
+jp,2022,Subtitle,['Official HIGE DANdism'],1,Pop Rock
+jp,2022,KICK BACK,['Kenshi Yonezu'],2,Yakousei
+jp,2022,新時代,['Ado'],3,Synthwave
+jp,2022,Overdose,['なとり'],4,Yakousei
+jp,2022,私は最強,['Ado'],5,J-Pop
+jp,2022,W / X / Y,['Tani Yuuki'],6,J-Pop
+jp,2022,逆光,['Ado'],7,J-Pop
+jp,2022,シンデレラボーイ,['Saucy Dog'],8,J-Pop
+jp,2022,ベテルギウス,['Yuuri'],9,Japanese Rock
+jp,2022,ミックスナッツ,['Official HIGE DANdism'],10,Art Rock
+mx,2018,"Taki Taki (with Selena Gomez, Ozuna & Cardi B)","['DJ Snake', 'Selena Gomez', 'Ozuna', 'Cardi B']",1,Hybrid Trap
+mx,2018,MIA (feat. Drake),"['Bad Bunny', 'Drake']",2,Reggaeton
+mx,2018,Calma - Remix,"['Pedro Capó', 'Farruko']",3,Latin Pop
+mx,2018,Te Boté - Remix,"['Nio Garcia', 'Casper Magico', 'Bad Bunny', 'Darell', 'Ozuna', 'Nicky Jam']",4,Pop Rap
+mx,2018,Adan y Eva,['Paulo Londra'],5,Reggaeton
+mx,2018,Amigos Con Derechos,"['Reik', 'Maluma']",6,Latin Pop
+mx,2018,Vaina Loca,"['Ozuna', 'Manuel Turizo']",7,Reggaeton
+mx,2018,X,"['Nicky Jam', 'J Balvin']",8,Reggaeton
+mx,2018,BEBE,"['6ix9ine', 'Anuel AA']",9,Reggaeton
+mx,2018,Déjala Que Vuelva (feat. Manuel Turizo),"['Piso 21', 'Manuel Turizo']",10,Reggaeton
+mx,2019,Tusa,"['KAROL G', 'Nicki Minaj']",1,Reggaeton
+mx,2019,Vete,['Bad Bunny'],2,Reggaeton
+mx,2019,China,"['Anuel AA', 'Daddy Yankee', 'KAROL G', 'J Balvin', 'Ozuna']",3,Reggaeton
+mx,2019,LA CANCIÓN,"['J Balvin', 'Bad Bunny']",4,Reggaeton
+mx,2019,Callaita,"['Bad Bunny', 'Tainy']",5,Reggaeton
+mx,2019,RITMO (Bad Boys For Life),"['Black Eyed Peas', 'J Balvin']",6,Reggaeton
+mx,2019,Otro Trago,"['Sech', 'Darell']",7,Reggaeton
+mx,2019,Tutu,"['Camilo', 'Pedro Capó']",8,Reggaeton
+mx,2019,11:00 PM,['Maluma'],9,Reggaeton
+mx,2019,Soltera (Remix),"['Lunay', 'Daddy Yankee', 'Bad Bunny']",10,Reggaeton
+mx,2020,DÁKITI,"['Bad Bunny', 'Jhayco']",1,Dancehall
+mx,2020,Hawái,['Maluma'],2,Reggaeton
+mx,2020,BICHOTA,['KAROL G'],3,Reggaeton
+mx,2020,LA NOCHE DE ANOCHE,"['Bad Bunny', 'ROSALÍA']",4,Reggaeton
+mx,2020,Relación - Remix,"['Sech', 'Daddy Yankee', 'J Balvin', 'ROSALÍA', 'Farruko']",5,Reggaeton
+mx,2020,Se Te Nota (with Guaynaa),"['Lele Pons', 'Guaynaa']",6,Latin Pop
+mx,2020,Dime Cómo Quieres,"['Christian Nodal', 'Ángela Aguilar']",7,Regional Mexican
+mx,2020,TE MUDASTE,['Bad Bunny'],8,Reggaeton
+mx,2020,Tusa,"['KAROL G', 'Nicki Minaj']",9,Reggaeton
+mx,2020,La Jeepeta - Remix,"['Nio Garcia', 'Anuel AA', 'Myke Towers', 'Brray', 'Juanka']",10,Reggaeton
+mx,2021,Todo De Ti,['Rauw Alejandro'],1,Dance-Pop
+mx,2021,Yonaguni,['Bad Bunny'],2,Pop Rap
+mx,2021,Botella Tras Botella,"['Gera MX', 'Christian Nodal']",3,Folk Pop
+mx,2021,Lo Siento BB:/ (with Bad Bunny & Julieta Venegas),"['Tainy', 'Bad Bunny', 'Julieta Venegas']",4,Reggaeton
+mx,2021,Pepas,['Farruko'],5,EDM
+mx,2021,DÁKITI,"['Bad Bunny', 'Jhay Cortez']",6,Dancehall
+mx,2021,Volví,"['Aventura', 'Bad Bunny']",7,Reggaeton
+mx,2021,Qué Más Pues?,"['J Balvin', 'Maria Becerra']",8,Reggaeton
+mx,2021,AM Remix,"['Nio Garcia', 'J Balvin', 'Bad Bunny']",9,Reggaeton
+mx,2021,Ya Supérame (En Vivo),['Grupo Firme'],10,Regional Mexican
+mx,2022,"Quevedo: Bzrp Music Sessions, Vol. 52","['Bizarrap', 'Quevedo']",1,Trap
+mx,2022,Me Porto Bonito,"['Bad Bunny', 'Chencho Corleone']",2,Reggaeton
+mx,2022,Tití Me Preguntó,['Bad Bunny'],3,Dembow
+mx,2022,Ojitos Lindos,"['Bad Bunny', 'Bomba Estéreo']",4,Latin Pop
+mx,2022,Efecto,['Bad Bunny'],5,Reggaeton
+mx,2022,No Se Va - En Vivo,['Grupo Frontera'],6,Regional Mexican
+mx,2022,Moscow Mule,['Bad Bunny'],7,Reggaeton
+mx,2022,Gatita,['Bellakath'],8,Reggaeton
+mx,2022,Siempre Pendientes,"['Peso Pluma', 'Luis R Conriquez']",9,Regional Mexican
+mx,2022,Monotonía,"['Shakira', 'Ozuna']",10,Latin Pop
+my,2018,"thank u, next",['Ariana Grande'],1,Contemporary R&B
+my,2018,SOLO,['JENNIE'],2,K-Pop
+my,2018,Sunflower - Spider-Man: Into the Spider-Verse,"['Post Malone', 'Swae Lee']",3,Synthpop
+my,2018,Kiss and Make Up,"['Dua Lipa', 'BLACKPINK']",4,Dance-Pop
+my,2018,Without Me,['Halsey'],5,Contemporary R&B
+my,2018,Beautiful (feat. Camila Cabello),"['Bazzi', 'Camila Cabello']",6,Alternative R&B
+my,2018,Girls Like You (feat. Cardi B) - Cardi B Version,"['Maroon 5', 'Cardi B']",7,Contemporary R&B
+my,2018,Better,['Khalid'],8,Alternative R&B
+my,2018,"Taki Taki (with Selena Gomez, Ozuna & Cardi B)","['DJ Snake', 'Selena Gomez', 'Ozuna', 'Cardi B']",9,Hybrid Trap
+my,2018,Happier,"['Marshmello', 'Bastille']",10,Electropop
+my,2019,Memories,['Maroon 5'],1,Contemporary R&B
+my,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",2,Contemporary R&B
+my,2019,ME! (feat. Brendon Urie of Panic! At The Disco),"['Taylor Swift', 'Brendon Urie']",3,Pop
+my,2019,Circles,['Post Malone'],4,Indie Pop
+my,2019,It's You,['Ali Gatie'],5,Contemporary R&B
+my,2019,ROXANNE,['Arizona Zervas'],6,Pop Rap
+my,2019,I.F.L.Y.,['Bazzi'],7,Contemporary R&B
+my,2019,Lose You To Love Me,['Selena Gomez'],8,Adult Contemporary
+my,2019,everything i wanted,['Billie Eilish'],9,Ambient Pop
+my,2019,Boy With Luv (feat. Halsey),"['BTS', 'Halsey']",10,Dance-Pop
+my,2020,Life Goes On,['BTS'],1,Contemporary R&B
+my,2020,Dynamite,['BTS'],2,Dance-Pop
+my,2020,Lovesick Girls,['BLACKPINK'],3,Electropop
+my,2020,How You Like That,['BLACKPINK'],4,Trap
+my,2020,positions,['Ariana Grande'],5,Contemporary R&B
+my,2020,Ice Cream (with Selena Gomez),"['BLACKPINK', 'Selena Gomez']",6,K-Pop
+my,2020,Lonely (with benny blanco),"['Justin Bieber', 'benny blanco']",7,Pop Ballad
+my,2020,Stuck with U (with Justin Bieber),"['Ariana Grande', 'Justin Bieber']",8,Pop Soul
+my,2020,Heather,['Conan Gray'],9,Folk Pop
+my,2020,34+35,['Ariana Grande'],10,Contemporary R&B
+my,2021,Easy On Me,['Adele'],1,Adult Contemporary
+my,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",2,Synthpop
+my,2021,MONEY,['LISA'],3,Hip Hop
+my,2021,ONLY,['LeeHi'],4,R&B Soul
+my,2021,Reckless,['Madison Beer'],5,Pop Soul
+my,2021,Here's Your Perfect,['Jamie Miller'],6,Pop
+my,2021,All Too Well (10 Minute Version) (Taylor's Version) (From The Vault),['Taylor Swift'],7,Country
+my,2021,LALISA,['LISA'],8,Hip Hop
+my,2021,My Universe,"['Coldplay', 'BTS']",9,Dance-Pop
+my,2021,happier,['Olivia Rodrigo'],10,Folk Pop
+my,2022,Kill Bill,['SZA'],1,Alternative Pop
+my,2022,Glimpse of Us,['Joji'],2,Adult Contemporary
+my,2022,Anti-Hero,['Taylor Swift'],3,Synthpop
+my,2022,Pink Venom,['BLACKPINK'],4,Pop Rap
+my,2022,Shut Down,['BLACKPINK'],5,Hip Hop
+my,2022,Creepin' (with The Weeknd & 21 Savage),"['Metro Boomin', 'The Weeknd', '21 Savage']",6,Alternative R&B
+my,2022,golden hour,['JVKE'],7,Pop
+my,2022,Rumah Singgah,['Fabio Asher'],8,Indo-Pop
+my,2022,Tak Ingin Usai,['Keisya Levronka'],9,Adult Contemporary
+my,2022,As It Was,['Harry Styles'],10,Indie Pop
+no,2018,Juletragedien,"['Erik Follestad', 'Linni Meister']",1,Christmas
+no,2018,Sweet but Psycho,['Ava Max'],2,Dance-Pop
+no,2018,Diamond Heart,"['Alan Walker', 'Sophia Somajo']",3,House
+no,2018,"Nå er det jul (feat. Murdrocks, Herman Dahl, Isabelle Eriksen, Agnetesh & Stina Talling)","['The sPlayers', 'Murdrocks', 'Herman Dahl', 'Isabelle Eriksen', 'Agnetesh', 'Stina Talling']",4,Holiday
+no,2018,Ignite (feat. SEUNGRI),"['K-391', 'Alan Walker', 'Julie Bergan', 'SEUNGRI']",5,Electropop
+no,2018,"thank u, next",['Ariana Grande'],6,Contemporary R&B
+no,2018,Sommerkroppen,['Mads Hansen'],7,Pop
+no,2018,Emotion,['Astrid S'],8,Synthpop
+no,2018,Håper Nissen Har Råd,['TIX'],9,Pop Rap
+no,2018,Shallow,"['Lady Gaga', 'Bradley Cooper']",10,Contemporary Country
+no,2019,Dance Monkey,['Tones And I'],1,Dance-Pop
+no,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",2,Contemporary R&B
+no,2019,everything i wanted,['Billie Eilish'],3,Ambient Pop
+no,2019,Blinding Lights,['The Weeknd'],4,Synthpop
+no,2019,Play,"['K-391', 'Alan Walker', 'Tungevaag', 'Mangoo']",5,House
+no,2019,ROXANNE,['Arizona Zervas'],6,Pop Rap
+no,2019,HIGHEST IN THE ROOM,['Travis Scott'],7,Pop Rap
+no,2019,Circles,['Post Malone'],8,Indie Pop
+no,2019,Memories,['Maroon 5'],9,Contemporary R&B
+no,2019,Shallow,"['Lady Gaga', 'Bradley Cooper']",10,Contemporary Country
+no,2020,Mood (feat. iann dior),"['24kGoldn', 'iann dior']",1,Pop Rap
+no,2020,Svag,['Victor Leksell'],2,Electropop
+no,2020,Blinding Lights,['The Weeknd'],3,Synthpop
+no,2020,Lonely (with benny blanco),"['Justin Bieber', 'benny blanco']",4,Pop Ballad
+no,2020,"Lemonade (feat. Gunna, Don Toliver & NAV)","['Internet Money', 'Gunna', 'Don Toliver', 'NAV']",5,Trap
+no,2020,Savage Love (Laxed - Siren Beat),"['Jawsh 685', 'Jason Derulo']",6,Dancehall
+no,2020,All I Want for Christmas Is You,['Mariah Carey'],7,Christmas
+no,2020,ROCKSTAR (feat. Roddy Ricch),"['DaBaby', 'Roddy Ricch']",8,Trap
+no,2020,Last Christmas,['Wham!'],9,Christmas
+no,2020,SO DONE,['The Kid LAROI'],10,Pop Rap
+no,2021,Når Julefreden Senker Seg,"['Truls Svendsen', 'Charlotte Smith', 'Norges Nye Megahit']",1,Norwegian Pop
+no,2021,Easy On Me,['Adele'],2,Adult Contemporary
+no,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",3,Synthpop
+no,2021,Når Snøen Smelter - fra Tre nøtter til Askepott,['Astrid S'],4,Holiday
+no,2021,Ludvig Daae,"['Helene Olafsen', 'Norges Nye Megahit']",5,Norwegian Pop
+no,2021,Bad Habits,['Ed Sheeran'],6,Dance-Pop
+no,2021,GHOST TOWN,['Benson Boone'],7,Adult Contemporary
+no,2021,All I Want for Christmas Is You,['Mariah Carey'],8,Christmas
+no,2021,It's Beginning to Look a Lot like Christmas,['Michael Bublé'],9,Christmas
+no,2021,Den fineste Chevy'n (feat. Maria Mena),"['Halva Priset', 'Maria Mena']",10,Norwegian Pop
+no,2022,Dans På Bordet,"['Ballinciaga', 'David Mokel']",1,Norwegian Pop
+no,2022,I'm Good (Blue),"['David Guetta', 'Bebe Rexha']",2,House
+no,2022,Frida Kahlo,['Marstein'],3,Hip Hop
+no,2022,SØR-AFRIKA,"['Beathoven', 'Capow x 2G']",4,Trap
+no,2022,Unholy (feat. Kim Petras),"['Sam Smith', 'Kim Petras']",5,Trap
+no,2022,Beklager (Guttaklubben),"['Ballinciaga', 'Kris Winther']",6,Norwegian Pop
+no,2022,Nerve,['Victoria Nadine'],7,Pop
+no,2022,As It Was,['Harry Styles'],8,Indie Pop
+no,2022,Danser videre i livet,"['Hkeem', 'Makosir']",9,Norwegian Pop
+no,2022,PAF.no,"['Karpe', 'Omar Sheriff']",10,Alternative R&B
+ph,2018,"thank u, next",['Ariana Grande'],1,Contemporary R&B
+ph,2018,Buwan,['juan karlos'],2,Alternative Rock
+ph,2018,Malibu Nights,['LANY'],3,Alternative R&B
+ph,2018,Kung 'Di Rin Lang Ikaw,"['December Avenue', 'Moira Dela Torre']",4,Emo Pop
+ph,2018,Mundo,['IV Of Spades'],5,Indie Pop
+ph,2018,Thru These Tears,['LANY'],6,Synthpop
+ph,2018,Girls Like You (feat. Cardi B) - Cardi B Version,"['Maroon 5', 'Cardi B']",7,Contemporary R&B
+ph,2018,Sana - Single Version,['I Belong to the Zoo'],8,Rock
+ph,2018,Love Someone,['Lukas Graham'],9,Pop Soul
+ph,2018,Kiss and Make Up,"['Dua Lipa', 'BLACKPINK']",10,Dance-Pop
+ph,2019,Memories,['Maroon 5'],1,Contemporary R&B
+ph,2019,ME! (feat. Brendon Urie of Panic! At The Disco),"['Taylor Swift', 'Brendon Urie']",2,Pop
+ph,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",3,Contemporary R&B
+ph,2019,Zebbiana,['Skusta Clee'],4,Hip Hop
+ph,2019,"10,000 Hours (with Justin Bieber)","['Dan + Shay', 'Justin Bieber']",5,Country Pop
+ph,2019,Neneng B,"['Nik Makino', 'Raf Davis']",6,Hip Hop
+ph,2019,Mean It,"['Lauv', 'LANY']",7,Contemporary R&B
+ph,2019,Kung 'Di Rin Lang Ikaw,"['December Avenue', 'Moira Dela Torre']",8,Emo Pop
+ph,2019,Beautiful People (feat. Khalid),"['Ed Sheeran', 'Khalid']",9,Contemporary R&B
+ph,2019,Sana - Single Version,['I Belong to the Zoo'],10,Rock
+ph,2020,Dynamite,['BTS'],1,Dance-Pop
+ph,2020,Ice Cream (with Selena Gomez),"['BLACKPINK', 'Selena Gomez']",2,K-Pop
+ph,2020,Life Goes On,['BTS'],3,Contemporary R&B
+ph,2020,Lovesick Girls,['BLACKPINK'],4,Electropop
+ph,2020,Paubaya,['Moira Dela Torre'],5,Indie Pop
+ph,2020,At My Worst,['Pink Sweat$'],6,R&B Soul
+ph,2020,positions,['Ariana Grande'],7,Contemporary R&B
+ph,2020,34+35,['Ariana Grande'],8,Contemporary R&B
+ph,2020,Holy (feat. Chance The Rapper),"['Justin Bieber', 'Chance the Rapper']",9,Contemporary R&B
+ph,2020,How You Like That,['BLACKPINK'],10,Trap
+ph,2021,Pagsamo,['Arthur Nery'],1,Pop
+ph,2021,All Too Well (10 Minute Version) (Taylor's Version) (From The Vault),['Taylor Swift'],2,Country
+ph,2021,Pano,['Zack Tabudlo'],3,Pop Soul
+ph,2021,Easy On Me,['Adele'],4,Adult Contemporary
+ph,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",5,Synthpop
+ph,2021,My Universe,"['Coldplay', 'BTS']",6,Dance-Pop
+ph,2021,Binibini,['Zack Tabudlo'],7,R&B Soul
+ph,2021,Here's Your Perfect,['Jamie Miller'],8,Pop
+ph,2021,double take,['dhruv'],9,Contemporary R&B
+ph,2021,MONEY,['LISA'],10,Hip Hop
+ph,2022,Anti-Hero,['Taylor Swift'],1,Synthpop
+ph,2022,Midnight Rain,['Taylor Swift'],2,Alternative Pop
+ph,2022,Lavender Haze,['Taylor Swift'],3,Alternative Pop
+ph,2022,Snow On The Beach (feat. Lana Del Rey),"['Taylor Swift', 'Lana Del Rey']",4,Alternative Pop
+ph,2022,Maroon,['Taylor Swift'],5,Alternative Pop
+ph,2022,"You're On Your Own, Kid",['Taylor Swift'],6,Alternative Pop
+ph,2022,Mahika,"['Adie', 'Janine Berdin']",7,Pop
+ph,2022,Bejeweled,['Taylor Swift'],8,Synthpop
+ph,2022,Question...?,['Taylor Swift'],9,Alternative Pop
+ph,2022,Pink Venom,['BLACKPINK'],10,Pop Rap
+sg,2018,"thank u, next",['Ariana Grande'],1,Contemporary R&B
+sg,2018,SOLO,['JENNIE'],2,K-Pop
+sg,2018,Kiss and Make Up,"['Dua Lipa', 'BLACKPINK']",3,Dance-Pop
+sg,2018,Without Me,['Halsey'],4,Contemporary R&B
+sg,2018,Girls Like You (feat. Cardi B) - Cardi B Version,"['Maroon 5', 'Cardi B']",5,Contemporary R&B
+sg,2018,Sunflower - Spider-Man: Into the Spider-Verse,"['Post Malone', 'Swae Lee']",6,Synthpop
+sg,2018,Happier,"['Marshmello', 'Bastille']",7,Electropop
+sg,2018,Eastside (with Halsey & Khalid),"['benny blanco', 'Halsey', 'Khalid']",8,Contemporary R&B
+sg,2018,"Taki Taki (with Selena Gomez, Ozuna & Cardi B)","['DJ Snake', 'Selena Gomez', 'Ozuna', 'Cardi B']",9,Hybrid Trap
+sg,2018,Beautiful (feat. Camila Cabello),"['Bazzi', 'Camila Cabello']",10,Alternative R&B
+sg,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",1,Contemporary R&B
+sg,2019,Memories,['Maroon 5'],2,Contemporary R&B
+sg,2019,ME! (feat. Brendon Urie of Panic! At The Disco),"['Taylor Swift', 'Brendon Urie']",3,Pop
+sg,2019,Circles,['Post Malone'],4,Indie Pop
+sg,2019,ROXANNE,['Arizona Zervas'],5,Pop Rap
+sg,2019,Beautiful People (feat. Khalid),"['Ed Sheeran', 'Khalid']",6,Contemporary R&B
+sg,2019,說好不哭,"['Jay Chou', 'Ashin Chen']",7,Mandopop
+sg,2019,Boy With Luv (feat. Halsey),"['BTS', 'Halsey']",8,Dance-Pop
+sg,2019,How Do You Sleep?,['Sam Smith'],9,Dance-Pop
+sg,2019,everything i wanted,['Billie Eilish'],10,Ambient Pop
+sg,2020,Dynamite,['BTS'],1,Dance-Pop
+sg,2020,Lovesick Girls,['BLACKPINK'],2,Electropop
+sg,2020,positions,['Ariana Grande'],3,Contemporary R&B
+sg,2020,Life Goes On,['BTS'],4,Contemporary R&B
+sg,2020,How You Like That,['BLACKPINK'],5,Trap
+sg,2020,Ice Cream (with Selena Gomez),"['BLACKPINK', 'Selena Gomez']",6,K-Pop
+sg,2020,34+35,['Ariana Grande'],7,Contemporary R&B
+sg,2020,Monster (Shawn Mendes & Justin Bieber),"['Shawn Mendes', 'Justin Bieber']",8,Pop
+sg,2020,Lonely (with benny blanco),"['Justin Bieber', 'benny blanco']",9,Pop Ballad
+sg,2020,willow,['Taylor Swift'],10,Folk Pop
+sg,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",1,Synthpop
+sg,2021,Easy On Me,['Adele'],2,Adult Contemporary
+sg,2021,All Too Well (10 Minute Version) (Taylor's Version) (From The Vault),['Taylor Swift'],3,Country
+sg,2021,INDUSTRY BABY (feat. Jack Harlow),"['Lil Nas X', 'Jack Harlow']",4,Trap
+sg,2021,Shivers,['Ed Sheeran'],5,Dance-Pop
+sg,2021,MONEY,['LISA'],6,Hip Hop
+sg,2021,Bad Habits,['Ed Sheeran'],7,Dance-Pop
+sg,2021,My Universe,"['Coldplay', 'BTS']",8,Dance-Pop
+sg,2021,good 4 u,['Olivia Rodrigo'],9,Pop Rock
+sg,2021,drivers license,['Olivia Rodrigo'],10,Indie Pop
+sg,2022,Anti-Hero,['Taylor Swift'],1,Synthpop
+sg,2022,Glimpse of Us,['Joji'],2,Adult Contemporary
+sg,2022,Kill Bill,['SZA'],3,Alternative Pop
+sg,2022,Pink Venom,['BLACKPINK'],4,Pop Rap
+sg,2022,Midnight Rain,['Taylor Swift'],5,Alternative Pop
+sg,2022,Shut Down,['BLACKPINK'],6,Hip Hop
+sg,2022,Unholy (feat. Kim Petras),"['Sam Smith', 'Kim Petras']",7,Trap
+sg,2022,Snow On The Beach (feat. Lana Del Rey),"['Taylor Swift', 'Lana Del Rey']",8,Alternative Pop
+sg,2022,Lavender Haze,['Taylor Swift'],9,Alternative Pop
+sg,2022,As It Was,['Harry Styles'],10,Indie Pop
+th,2018,ซ่อนกลิ่น,['Palmy'],1,Thai Indie
+th,2018,SOLO,['JENNIE'],2,K-Pop
+th,2018,ลาลาลอย (100%),['THE TOYS'],3,Thai Indie
+th,2018,"thank u, next",['Ariana Grande'],4,Contemporary R&B
+th,2018,ดูดี,['Polycat'],5,Funk
+th,2018,เป็นไรไหม?,"['OG-ANIC', 'Lazyloxy']",6,Hip Hop
+th,2018,อาวรณ์,['Polycat'],7,Thai Indie
+th,2018,เสือสิ้นลาย,"['F.HERO', 'YOUNGOHM', 'P-Hot', 'FYMME']",8,Hip Hop
+th,2018,พูดไม่ออก,['THE TOYS'],9,Thai Pop
+th,2018,Sunflower - Spider-Man: Into the Spider-Verse,"['Post Malone', 'Swae Lee']",10,Synthpop
+th,2019,ภาวนา,['MEYOU'],1,Thai Pop
+th,2019,แอบดี (How to live without you),['Stamp'],2,Rock
+th,2019,ทิ้งแต่เก็บ - เพลงประกอบภาพยนตร์ ฮาวทูทิ้ง..ทิ้งอย่างไร ไม่ให้เหลือเธอ,['THE TOYS'],3,Thai Pop
+th,2019,รักติดไซเรน,"['Ice Paris', 'Pearwah']",4,Thai Pop
+th,2019,Señorita,"['Shawn Mendes', 'Camila Cabello']",5,Contemporary R&B
+th,2019,ฝนตกไหม,['Three Man Down'],6,Pop Rock
+th,2019,นี่ฉันเอง feat. KOB FLAT BOY,['Lipta'],7,Thai Pop
+th,2019,ถ้าฉันเป็นเขา,['Indigo'],8,Thai Pop
+th,2019,ME! (feat. Brendon Urie of Panic! At The Disco),"['Taylor Swift', 'Brendon Urie']",9,Pop
+th,2019,Mean It,"['Lauv', 'LANY']",10,Contemporary R&B
+th,2020,ถ้าเธอรักฉันจริง,['Three Man Down'],1,Synthpop
+th,2020,แฟนใหม่หน้าคุ้น,"['Maiyarap', 'MILLI']",2,Pop Rap
+th,2020,คิด(แต่ไม่)ถึง (Same Page?),['Tilly Birds'],3,Thai Pop
+th,2020,Melbourne,"['Morvasu', 'TangBadVoice']",4,Thai Indie
+th,2020,แปลไม่ออก - Ost. แปลรักฉันด้วยใจเธอ,['Billkin'],5,Pop Soul
+th,2020,โคตรพิเศษ - (From “แปลรักฉันด้วยใจเธอ”),['Billkin'],6,Alternative R&B
+th,2020,กีดกัน (Skyline) - Ost. แปลรักฉันด้วยใจเธอ,['Billkin'],7,Electronic
+th,2020,ถ้าเขาจะรัก (ยืนเฉยๆเขาก็รัก),['First Anuwat'],8,Folk Pop
+th,2020,ฝนตกไหม,['Three Man Down'],9,Pop Rock
+th,2020,จำเลยรัก - Defendant Of Love,"['F.HERO', 'Txrbo']",10,Hip Hop
+th,2021,MONEY,['LISA'],1,Hip Hop
+th,2021,ต่อจากนี้เพลงรักทุกเพลงจะเป็นของเธอเท่านั้น,['No One Else'],2,Thai Pop
+th,2021,พิง - เพลงประกอบละคร กระเช้าสีดา,['NONT TANONT'],3,Thai Pop
+th,2021,LALISA,['LISA'],4,Hip Hop
+th,2021,เพื่อนเล่น ไม่เล่นเพื่อน (Just Being Friendly),"['Tilly Birds', 'MILLI']",5,Rock
+th,2021,"SG (with Ozuna, Megan Thee Stallion & LISA of BLACKPINK)","['DJ Snake', 'Ozuna', 'Megan Thee Stallion', 'LISA']",6,Dancehall
+th,2021,บานปลาย (best wishes),['BOWKYLION'],7,Contemporary R&B
+th,2021,My Universe,"['Coldplay', 'BTS']",8,Dance-Pop
+th,2021,ELEVEN,['IVE'],9,Dance-Pop
+th,2021,แปะหัวใจ (14th Feb),"['Jaonaay', 'Juné']",10,Thai Pop
+th,2022,Shut Down,['BLACKPINK'],1,Hip Hop
+th,2022,Pink Venom,['BLACKPINK'],2,Pop Rap
+th,2022,ซูลูปาก้า ตาปาเฮ้,['THEMOONWILLALWAYSBEWITHME'],3,Thai Pop
+th,2022,พิจารณา (Consider),"['Musketeers', 'Maiyarap']",4,Thai Pop
+th,2022,วาดไว้ - recall,['BOWKYLION'],5,Adult Contemporary
+th,2022,17,['Dept'],6,Thai Indie
+th,2022,Mr. Everything,['Billkin'],7,Thai Pop
+th,2022,FIRE BOY,['PP Krit'],8,Thai Pop
+th,2022,โต๊ะริม - melt,['NONT TANONT'],9,Thai Pop
+th,2022,Anti-Hero,['Taylor Swift'],10,Synthpop
+tr,2018,Bir İhtimal Biliyorum,['Gülşen'],1,Turkish Pop
+tr,2018,Mary Jane (Radio Edit),['Burry Soprano'],2,Trap
+tr,2018,3 2 1,['Ben Fero'],3,Trap
+tr,2018,KAFA10,"['Anıl Piyancı', 'Ezhel']",4,Pop Rap
+tr,2018,Yalnız Çiçek,"['Aleyna Tilki', 'Emrah Karaduman']",5,Turkish Pop
+tr,2018,Elbet Bir Gün,['Canbay & Wolker'],6,Turkish Rap
+tr,2018,Kazıdık Tırnaklarla,['Ezhel'],7,Trap
+tr,2018,Islah,"['Muşta', 'Şehinşah']",8,Turkish Rap
+tr,2018,Geceler,['Ezhel'],9,Trap
+tr,2018,Unuturum Elbet,"['Rafet El Roman', 'Derya']",10,Turkish Pop
+tr,2019,AYA,"['Murda', 'Ezhel']",1,Trap
+tr,2019,Wir sind Kral,"['Ufo361', 'Ezhel']",2,Cloud Rap
+tr,2019,Mekanın Sahibi,['Norm Ender'],3,Trap
+tr,2019,Arkadaş,['Ben Fero'],4,Cloud Rap
+tr,2019,Nalan,['Emir Can İğrek'],5,Turkish Pop
+tr,2019,Ela,['Reynmen'],6,Contemporary R&B
+tr,2019,Toz Taneleri,['Sagopa Kajmer'],7,Pop Rap
+tr,2019,Neresi?,"['BEGE', 'EFESAVAGE']",8,Turkish Rap
+tr,2019,Yemin Olsun,"['Ufo361', 'Ezhel']",9,Pop Rap
+tr,2019,Benjamins 3,"['Rozz Kalliope', 'Ece Seçkin']",10,Turkish Rap
+tr,2020,Melek,['Reynmen'],1,Turkish Rap
+tr,2020,Allah’ından Bul,['Ezhel'],2,Afrobeats
+tr,2020,HARMAN,['BEGE'],3,Trap
+tr,2020,Kusura Bakma,['Tuğkan'],4,Pop Rock
+tr,2020,NAZAR,['BEGE'],5,Trap
+tr,2020,Bi Sonraki Hayatımda Gel,"['Murda', 'Ezhel']",6,Pop Rap
+tr,2020,Nimet,"['Didomido', 'Eglo G']",7,Turkish Pop
+tr,2020,Bırakman Doğru Mu 2,"['Zeynep Bastık', 'Anıl Piyancı']",8,Pop Rap
+tr,2020,Devam (feat. Luciano & Ezhel),"['Gentleman', 'Luciano', 'Ezhel']",9,Pop Rap
+tr,2020,Hasbelkader,"['Bilal Sonses', 'Yıldız Tilbe']",10,Turkish Pop
+tr,2021,PAPARAZZI,['UZI'],1,Turkish Rap
+tr,2021,Bilmem Mi?,['Sefo'],2,Turkish Rap
+tr,2021,10 NUMARA,['Lvbel C5'],3,Hip Hop
+tr,2021,Mahvettim,['cakal'],4,Turkish Rap
+tr,2021,Dalga,['Batuflex'],5,Turkish Rap
+tr,2021,Bul Beni,['Ezhel'],6,Pop Rap
+tr,2021,CINDY,['UZI'],7,Turkish Rap
+tr,2021,ralli,"['Lvbel C5', 'Batuflex']",8,Turkish Rap
+tr,2021,Arıyorum,['EDIS'],9,Turkish Pop
+tr,2021,Hayrola,"['Artz', 'Bugy', 'Ezhel']",10,Hip Hop
+tr,2022,SENIN UGRUNA,"['UZI', 'Mavi']",1,Trap
+tr,2022,Belki,"['Dedublüman', 'Mavzer Tabancas']",2,Rock
+tr,2022,Nerdesin,['Ezhel'],3,Afrobeats
+tr,2022,Olur Mu,"['Gazapizm', 'Melike Şahin']",4,Hip Hop
+tr,2022,Ara,['Zeynep Bastık'],5,Turkish Pop
+tr,2022,ARASAN DA,['UZI'],6,Trap
+tr,2022,İmdat,['cakal'],7,Trap
+tr,2022,Bi' Tek Ben Anlarım,['KÖFN'],8,Electropop
+tr,2022,Diğer Yarım,['ATE'],9,Turkish Rap
+tr,2022,Unutmak Öyle Kolay Mı Sandın,['Semicenk'],10,Turkish Pop
+us,2018,"thank u, next",['Ariana Grande'],1,Contemporary R&B
+us,2018,SICKO MODE,['Travis Scott'],2,Trap
+us,2018,ZEZE (feat. Travis Scott & Offset),"['Kodak Black', 'Offset', 'Travis Scott']",3,Hip Hop
+us,2018,Going Bad (feat. Drake),"['Meek Mill', 'Drake']",4,Trap
+us,2018,In My Feelings,['Drake'],5,Pop Rap
+us,2018,Drip Too Hard (Lil Baby & Gunna),"['Lil Baby', 'Gunna']",6,Trap
+us,2018,God's Plan,['Drake'],7,Pop Rap
+us,2018,Sunflower - Spider-Man: Into the Spider-Verse,"['Post Malone', 'Swae Lee']",8,Synthpop
+us,2018,Lucid Dreams,['Juice WRLD'],9,Emo Rap
+us,2018,Without Me,['Halsey'],10,Contemporary R&B
+us,2019,Circles,['Post Malone'],1,Indie Pop
+us,2019,ME! (feat. Brendon Urie of Panic! At The Disco),"['Taylor Swift', 'Brendon Urie']",2,Pop
+us,2019,HIGHEST IN THE ROOM,['Travis Scott'],3,Pop Rap
+us,2019,ROXANNE,['Arizona Zervas'],4,Pop Rap
+us,2019,Bandit (with YoungBoy Never Broke Again),"['Juice WRLD', 'YoungBoy Never Broke Again']",5,Trap
+us,2019,Sunflower - Spider-Man: Into the Spider-Verse,"['Post Malone', 'Swae Lee']",6,Synthpop
+us,2019,Adore You,['Harry Styles'],7,Dance-Pop
+us,2019,Ransom,['Lil Tecca'],8,Trap
+us,2019,The Box,['Roddy Ricch'],9,Trap
+us,2019,bad guy,['Billie Eilish'],10,Alternative Pop
+us,2020,WAP (feat. Megan Thee Stallion),"['Cardi B', 'Megan Thee Stallion']",1,Trap
+us,2020,willow,['Taylor Swift'],2,Folk Pop
+us,2020,The Box,['Roddy Ricch'],3,Trap
+us,2020,positions,['Ariana Grande'],4,Contemporary R&B
+us,2020,ROCKSTAR (feat. Roddy Ricch),"['DaBaby', 'Roddy Ricch']",5,Trap
+us,2020,Mood (feat. iann dior),"['24kGoldn', 'iann dior']",6,Pop Rap
+us,2020,DÁKITI,"['Bad Bunny', 'Jhayco']",7,Dancehall
+us,2020,Laugh Now Cry Later (feat. Lil Durk),"['Drake', 'Lil Durk']",8,Trap
+us,2020,"Lemonade (feat. Gunna, Don Toliver & NAV)","['Internet Money', 'Gunna', 'Don Toliver', 'NAV']",9,Trap
+us,2020,champagne problems,['Taylor Swift'],10,Pop Ballad
+us,2021,STAY (with Justin Bieber),"['The Kid LAROI', 'Justin Bieber']",1,Synthpop
+us,2021,good 4 u,['Olivia Rodrigo'],2,Pop Rock
+us,2021,INDUSTRY BABY (feat. Jack Harlow),"['Lil Nas X', 'Jack Harlow']",3,Trap
+us,2021,Easy On Me,['Adele'],4,Adult Contemporary
+us,2021,All Too Well (10 Minute Version) (Taylor's Version) (From The Vault),['Taylor Swift'],5,Country
+us,2021,Knife Talk (with 21 Savage ft. Project Pat),"['Drake', '21 Savage', 'Project Pat']",6,Trap
+us,2021,Kiss Me More (feat. SZA),"['Doja Cat', 'SZA']",7,Contemporary R&B
+us,2021,Way 2 Sexy (with Future & Young Thug),"['Drake', 'Future', 'Young Thug']",8,Trap
+us,2021,MONTERO (Call Me By Your Name),['Lil Nas X'],9,Pop Rap
+us,2021,Rockin' Around The Christmas Tree,['Brenda Lee'],10,Christmas
+us,2022,Anti-Hero,['Taylor Swift'],1,Synthpop
+us,2022,Kill Bill,['SZA'],2,Alternative Pop
+us,2022,Lavender Haze,['Taylor Swift'],3,Alternative Pop
+us,2022,Midnight Rain,['Taylor Swift'],4,Alternative Pop
+us,2022,Maroon,['Taylor Swift'],5,Alternative Pop
+us,2022,Snow On The Beach (feat. Lana Del Rey),"['Taylor Swift', 'Lana Del Rey']",6,Alternative Pop
+us,2022,Karma,['Taylor Swift'],7,Synthpop
+us,2022,"You're On Your Own, Kid",['Taylor Swift'],8,Alternative Pop
+us,2022,Bejeweled,['Taylor Swift'],9,Synthpop
+us,2022,Vigilante Shit,['Taylor Swift'],10,Alternative Pop
