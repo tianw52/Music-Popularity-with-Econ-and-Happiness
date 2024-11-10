@@ -169,7 +169,7 @@ def main(inputs, output):
     ])
 
     happiness = spark.read.format("com.crealytics.spark.excel") \
-                            .option("dataAddress", "'Sheet1'!A2:C2365") \
+                            .option("dataAddress", "'Sheet1'!A2:C2367") \
                             .option("header", "false") \
                             .schema(happiness_schema) \
                             .load(inputs + "/happiness.xls")

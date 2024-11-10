@@ -55,7 +55,7 @@ def main(inputs, output):
                                 "Other Electronic", "Funk", "Funk", \
                                 "Funk", "Emo", "Emo", \
                                 "Sertanejo"],
-                                "genre") \
+                                "genre")
 
     combined_genres.write.partitionBy("country") \
                         .parquet(output, mode="overwrite")
