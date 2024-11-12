@@ -57,7 +57,10 @@ def main(inputs, output):
                                 "Sertanejo"],
                                 "genre")
 
-    combined_genres.write.partitionBy("country") \
+    grouped_genres = combined_genres.groupBy(["year", "country", "genre"]) \
+                                    .count().orderBy(["year", "country"]) \
+
+    grouped_genres.write.partitionBy("country") \
                         .parquet(output, mode="overwrite")
 
 # Sample command to run this code:
