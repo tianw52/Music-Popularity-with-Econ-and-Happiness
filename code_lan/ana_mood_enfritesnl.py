@@ -26,7 +26,7 @@ def analyze_chunk(chunk):
 def main(input,output):
     df = spark.read.parquet(input)
    
-    df1 = df.filter(df['language'].isin('fr', 'en', 'nl', 'it', 'es'))
+    df1 = df.filter(df['language'].isin(['fr', 'en', 'nl', 'it', 'es']))
 
     # Register a UDF for splitting lyrics into chunks
     split_udf = functions.udf(split_into_chunks, functions.ArrayType(types.StringType()))
