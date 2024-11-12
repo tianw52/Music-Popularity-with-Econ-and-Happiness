@@ -24,7 +24,7 @@ def split_into_chunks(lyrics, chunk_size=512):
 
 def main(input,output):
     df = spark.read.parquet(input)
-    df1 = df.filter(df['language'].isin('ms','pt','id','zh','zh_Hant','ja'))
+    df1 = df.filter(df['language'].isin(['ms','pt','id','zh','zh_Hant','ja']))
   
     split_udf = functions.udf(split_into_chunks, functions.ArrayType(types.StringType()))
 
