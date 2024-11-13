@@ -12,12 +12,12 @@ def split_into_chunks(lyrics, chunk_size=512):
 
 @functions.udf(returnType= types.StringType())
 def analyze_chunk(chunk):
-    result = sentiment_analyzer(chunk)
-    if result[0]['label'] =='LABEL_0' and result[0]['score'] >= 0.6:
+    result = sentiment_analyzer(chunk[:512])
+    if result[0]['label'] =='LABEL_0' and result[0]['score'] >= 0.75:
         return 'negative'
-    elif result[0]['label'] =='LABEL_1' and result[0]['score'] >= 0.6:
+    elif result[0]['label'] =='LABEL_1' and result[0]['score'] >= 0.75:
         return 'positive'
-    elif (result[0]['label'] =='LABEL_1' or result[0]['label'] =='LABEL_0') and result[0]['score'] < 0.6:
+    elif (result[0]['label'] =='LABEL_1' or result[0]['label'] =='LABEL_0') and result[0]['score'] < 0.75:
         return 'neutral'
     return None
     

@@ -17,7 +17,7 @@ def split_into_chunks(lyrics, chunk_size=512):
 
 @functions.udf(returnType= types.StringType())
 def analyze_chunk(chunk):
-    result = classifier(chunk[:512])
+    result = classifier(chunk)
     if result[0]['label'] =='NEGATIVE':
         return 'negative'
     elif result[0]['label'] =='POSITIVE':
