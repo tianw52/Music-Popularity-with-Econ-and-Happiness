@@ -194,12 +194,21 @@ def main(inputs, output):
     # Merge happiness data with economic data
     econ_happiness = final_econ.join(filtered_happiness, on=["year", "country"])
 
+    # Add column indicating whether country is developed or developing
+    developed_countries = ["United Kingdom", "Japan", "Canada", "Singapore", \
+                "Australia", "Norway", "Belgium", "Hong Kong", "United States"]
+
+    country_development = econ_happiness.withColumn("developed_country", \
+                            functions.when(functions.col("country") \
+                            .isin(developed_countries), True).otherwise(False))
+
     # Keep relevant rows in a sensible order to write to Parquet
-    final_econ_happiness = econ_happiness[["year", "country", "country_code", \
-                                        "gdp_per_capita", "inflation_rate", \
-                                        "unemployment_rate", "happiness", \
-                                        "global_inflation_rate", \
-                                        "global_unemployment_rate"]]
+    final_econ_happiness = country_development[["year", "country", "country_code", \
+                                                "developed_country", \
+                                                "gdp_per_capita", "inflation_rate", \
+                                                "unemployment_rate", "happiness", \
+                                                "global_inflation_rate", \
+                                                "global_unemployment_rate"]]
 
     final_econ_happiness.write.partitionBy("country_code") \
                         .parquet(output, mode="overwrite")
