@@ -27,11 +27,12 @@ par(mfrow = c(2, 2))
 plot_happiness <- function(data, country_name) {
   country_data <- data[data$country == country_name, ]
   # output as individual plots
-  #png(paste("plots/Happiness Score in", country_name, "Over Time.png"), width = 600, height = 400)
+  #png(paste("plots/Happiness_in_", country_name, "_Over_Time.png", sep = ""),
+  #    width = 600, height = 400)
   plot(
     country_data$year, 
     country_data$happiness, 
-    type = "l", # Line plot
+    type = "l", 
     main = paste("Happiness Score in", country_name, "Over Time"), 
     xlab = "Year", 
     ylab = "Happiness Score",
@@ -273,6 +274,8 @@ moderate negative correlation exists, indicating that individuals in
 happier countries tend to listen to songs with more negative moods.
 
 ```{r}
+# plotting for BI
+
 par(mfrow = c(2,2))
 plot_country_trends <- function(data) {
   countries <- unique(data$country)
@@ -280,7 +283,8 @@ plot_country_trends <- function(data) {
   for (country in countries) {
     country_data <- data[data$country == country, ]
     # output the happiness and mood over time plots as individual files
-    #png(paste("plots/Trends for", country, ".png"), width = 800, height = 600)
+    #png(paste("plots/Trends_for_", country, ".png", sep = ""),
+    #    width = 800, height = 600)
     plot(
       country_data$year, 
       country_data$happiness, 
