@@ -1,0 +1,91 @@
+year,country,positive,neutral,negative,happiness,developed_country
+2018,Argentina,29,4,77,5.7927966,false
+2019,Argentina,18,5,87,6.085561,false
+2020,Argentina,21,5,84,5.900567,false
+2021,Argentina,23,2,85,5.908279,false
+2022,Argentina,20,7,83,6.2609935,false
+2018,Australia,51,9,50,7.1769934,true
+2019,Australia,40,13,57,7.233995,true
+2020,Australia,43,3,64,7.1373677,true
+2021,Australia,50,4,56,7.111599,true
+2022,Australia,41,7,62,7.034696,true
+2018,Belgium,47,9,54,6.892172,true
+2019,Belgium,42,4,64,6.772138,true
+2020,Belgium,38,3,69,6.838761,true
+2021,Belgium,35,8,67,6.8817563,true
+2022,Belgium,29,7,74,6.8568745,true
+2018,Bulgaria,43,13,54,5.0988135,false
+2019,Bulgaria,43,12,55,5.108438,false
+2020,Bulgaria,47,13,50,5.597723,false
+2021,Bulgaria,45,9,56,5.4216933,false
+2022,Bulgaria,36,11,63,5.378349,false
+2018,Brazil,29,1,80,6.190922,false
+2019,Brazil,40,,70,6.451149,false
+2020,Brazil,40,1,69,6.109718,false
+2021,Brazil,41,1,68,6.0099535,false
+2022,Brazil,40,1,69,6.2570796,false
+2018,Canada,43,11,56,7.1754966,true
+2019,Canada,43,8,59,7.1090765,true
+2020,Canada,47,3,60,7.0249047,true
+2021,Canada,49,6,55,6.9394355,true
+2022,Canada,40,10,60,6.9179354,true
+2018,United Kingdom,50,8,52,7.233445,true
+2019,United Kingdom,48,9,53,7.157151,true
+2020,United Kingdom,53,3,54,6.7981772,true
+2021,United Kingdom,51,5,54,6.866962,true
+2022,United Kingdom,39,7,64,6.72178,true
+2018,Hong Kong,46,12,52,5.43,true
+2019,Hong Kong,46,10,54,5.659317,true
+2020,Hong Kong,48,10,52,5.2953415,true
+2021,Hong Kong,32,20,58,5.321551,true
+2022,Hong Kong,43,13,54,5.311294,true
+2018,Honduras,31,6,73,5.908424,false
+2019,Honduras,17,6,87,5.9300513,false
+2020,Honduras,24,4,82,5.9532,false
+2021,Honduras,21,,89,6.113636,false
+2022,Honduras,21,3,86,5.9318037,false
+2018,Japan,55,13,42,5.7935753,true
+2019,Japan,40,18,52,5.908039,true
+2020,Japan,36,26,48,6.1179633,true
+2021,Japan,34,22,54,6.091325,true
+2022,Japan,36,24,50,6.17801,true
+2018,Mexico,37,6,67,6.5495787,false
+2019,Mexico,28,5,77,6.4319453,false
+2020,Mexico,28,3,79,5.964221,false
+2021,Mexico,31,3,76,5.990751,false
+2022,Mexico,26,7,77,7.0383687,false
+2018,Malaysia,45,13,52,5.3388176,false
+2019,Malaysia,47,14,49,5.427954,false
+2020,Malaysia,51,6,53,6.014199,false
+2021,Malaysia,55,3,52,6.0103917,false
+2022,Malaysia,46,8,56,6.0480065,false
+2018,Norway,51,12,47,7.444262,true
+2019,Norway,40,8,62,7.4421396,true
+2020,Norway,45,6,59,7.2900324,true
+2021,Norway,46,9,55,7.3615737,true
+2022,Norway,37,15,58,7.2946043,true
+2018,Philippines,46,22,42,5.8691726,false
+2019,Philippines,40,23,47,6.267745,false
+2020,Philippines,33,16,61,5.079585,false
+2021,Philippines,49,15,46,5.965058,false
+2022,Philippines,41,12,57,5.9949603,false
+2018,Singapore,46,10,54,6.374564,true
+2019,Singapore,44,14,52,6.37836,true
+2020,Singapore,50,6,54,6.3771,true
+2021,Singapore,52,5,53,6.586717,true
+2022,Singapore,42,5,63,6.333046,true
+2018,Thailand,50,22,38,6.011562,false
+2019,Thailand,33,41,36,6.0221515,false
+2020,Thailand,34,39,37,5.8845444,false
+2021,Thailand,31,33,46,5.638097,false
+2022,Thailand,36,37,37,6.0071173,false
+2018,Turkey,74,6,30,5.1856894,false
+2019,Turkey,78,5,27,4.8720737,false
+2020,Turkey,75,2,33,4.861554,false
+2021,Turkey,76,2,32,4.3666396,false
+2022,Turkey,75,5,30,5.0934415,false
+2018,United States,38,12,60,6.8826847,true
+2019,United States,41,10,59,6.9437013,true
+2020,United States,42,5,63,7.028088,true
+2021,United States,50,6,54,6.959088,true
+2022,United States,37,11,62,6.69279,true
