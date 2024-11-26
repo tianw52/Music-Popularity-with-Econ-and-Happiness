@@ -215,7 +215,7 @@ def main(inputs, output):
 
 # Sample command to run this code:
 # $ spark-submit --packages com.crealytics:spark-excel_2.12:0.13.5
-# inflation.py data-input data-output
+# econ_happiness_etl.py ../pre-etl_data ../cleaned_data/econ_happiness_cleaned
 # Specify crealytics in packages, as per
 # https://stackoverflow.com/a/68206031
 if __name__ == '__main__':
