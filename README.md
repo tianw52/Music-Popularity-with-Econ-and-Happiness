@@ -9,7 +9,7 @@ Please see [`RUNNING.md`](RUNNING.md).
 
 ## pre-etl data
 
-All the raw data about Economics factors and happiness scores can be found in the [`pre-etl_data`](pre-etl_data) directory, which contains:
+All the raw data about Economics factors and happiness scores can be found in the [pre-etl_data](pre-etl_data) directory, which contains:
 
 - **[`gdp_per_capita`](pre-etl_data/gdp_per_capita) directory**: Contains an Excel file for each country that contains their annual GDP per capita in USD (source: [Statista](https://www.statista.com/)).
 - **[`inflation`](pre-etl_data/inflation) directory**: Contains an Excel file for each country that contains their annual inflation rate (source: [Statista](https://www.statista.com/)).
@@ -25,5 +25,5 @@ We use [Hugging Face](https://huggingface.co/) Model to predict our lyrcis moods
 All the related code in that [file](sentiment_analysis_code) is to run the Sentiment Analysis.
 
 ## POWERBI VISUALIZATION:
-We have a [`powerbi dashborad`](BI_dashboard/Visualization.pbix) to show what we found based on our cleaned_data.
+We have a [powerbi dashborad](BI_dashboard/Visualization.pbix) to show what we found based on our cleaned_data.
 (You can download and upload them in your sfu powerbi website to see and try it.)
