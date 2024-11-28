@@ -10,7 +10,6 @@ In addition to the usual PySpark setup required for this course, make sure that 
 - `seaborn`
 - `numpy`
 - `pandas`
-- `add more libraries here!`
 
 
 ## How do we run the project?
@@ -43,7 +42,7 @@ The [`cleaned_data/econ_happiness_cleaned`](cleaned_data/econ_happiness_cleaned)
 
 Next, let's find the top 200 Spotify songs per country and year:
 
-**Note**: the dataset for spotify tracks is too big and needed to be downloaded from [Kaggle](https://www.kaggle.com/datasets/jfreyberg/spotify-chart-data). Pleaes adjust your input path accrodingly below.
+**Note**: The dataset for Spotify tracks is too big for GitHub and must be downloaded from [Kaggle](https://www.kaggle.com/datasets/jfreyberg/spotify-chart-data). Please adjust your input path accrodingly below.
 
 ```
 spark-submit ETL/spotify_year.py path/to/your/kaggle/download cleaed_data/spotify_top200
@@ -114,7 +113,7 @@ All the plots created in Task 2 can be found in the [`Task-2/plots`](Task-2/plot
 
 ## Task 3: Is there a correlation between the popularity of song moods—such as happy music or sad music—to the average happiness of people in different countries?
 
-Using the language, mood, songs, and happiness data we obtained before, we create a dataset used for analysis in R.
+Using the language, mood, songs, and happiness data we obtained before, we created a dataset used for analysis in R.
 
 ```
 prep_task3.py cleaned_data/languages_and_mood/moods_data cleaned_data/spotify_clean cleaned_data/econ_happiness_cleaned Task-3/happiness_w_mood_R
@@ -122,4 +121,4 @@ prep_task3.py cleaned_data/languages_and_mood/moods_data cleaned_data/spotify_cl
 
 ### Output files produced:
 
-- [`Task-3/happiness_w_mood_R`](Task-3/happiness_w_mood_R) directory contains the csv file that will be used in R later.
+- **[`Task-3/happiness_w_mood_R`](Task-3/happiness_w_mood_R)**: Directory that contains the CSV file to be used in R later.
