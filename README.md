@@ -8,5 +8,5 @@ Welcome to our repository! Our project is an exploration of recent trends in son
 Please see [`RUNNING.md`](RUNNING.md).
 
 ## POWERBI VISUALIZATION:
-We have a [`powerbi dashborad`](BI dashboard/Visualization.pbix) to show what we found based on our cleaned_data.
+We have a [`powerbi dashborad`](BI_dashboard/Visualization.pbix) to show what we found based on our cleaned_data.
 (You can download and upload them in your sfu powerbi website to see and try it.)
