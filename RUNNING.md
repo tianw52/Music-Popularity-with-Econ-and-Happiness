@@ -119,7 +119,7 @@ All of the Task 1 outputs can be found in the [`Task-1/output`](Task-1/output) d
 ## Task 2: Have songs written in certain languages risen in popularity internationally?
 
 ```
-spark-submit Task-2/language_distribution.py Task-2/language_all.json cleaned_data/spotify_clean Task-2/word_cloud_masks Task-2/plots
+spark-submit Task-2/language_distribution.py cleaned_data/languages_and_mood/parquet_by_lan cleaned_data/spotify_clean Task-2/word_cloud_masks Task-2/plots
 ```
 
 ### Output files produced:
