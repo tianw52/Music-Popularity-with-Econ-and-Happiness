@@ -127,7 +127,20 @@ spark-submit ETL/sep_by_lan4.py cleaned_data/languages_and_mood/data_with_lyrics
 
 We use [Hugging Face](https://huggingface.co/) Model to predict our lyrcis moods, by seperate into 3 categories.
 
-- **[`Detect Bulgarian`](https://huggingface.co/DGurgurov/xlm-r_bulgarian_sentiment))**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_bg.py)
+- **[`Detect Bulgarian`](https://huggingface.co/DGurgurov/xlm-r_bulgarian_sentiment)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_bg.py)
+- **[`Detect Enilish, Dutch, German, French, Italian, Spanish `](https://huggingface.co/nlptown/bert-base-multilingual-uncased-sentiment)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_enfritesnl.py)
+- **[`Detect Japanese,Chinese,Malay,Indonesian,Portuguese`](https://huggingface.co/lxyuan/distilbert-base-multilingual-cased-sentiments-student)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_jazhmsidpt.py)
+- **[`Detect Korean`](https://huggingface.co/WhitePeak/bert-base-cased-Korean-sentiment)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_ko.py)
+- **[`Detect Polish`](https://huggingface.co/Voicelab/herbert-base-cased-sentiment)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_polish.py)
+- **[`Detect Romanian`](https://huggingface.co/nico-dv/sentiment-analysis-model)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_ro.py)
+- **[`Detect Russian`](https://huggingface.co/blanchefort/rubert-base-cased-sentiment)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_ru.py)
+- **[`Detect Slovak`](https://huggingface.co/kinit/slovakbert-sentiment-twitter)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_slovak.py)
+- **[`Detect Swedish`](https://huggingface.co/KBLab/robust-swedish-sentiment-multiclass)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_sv.py)
+- **[`Detect Tagalog`](https://huggingface.co/dost-asti/RoBERTa-tl-sentiment-analysis)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_tagalog.py)
+- **[`Detect Thai`](https://huggingface.co/SandboxBhh/sentiment-thai-text-model)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_sentiment_th.py)
+- **[`Detect Turkish`](https://huggingface.co/moarslan/bert-base-turkish-sentiment-analysis)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_sentiment_tr.py)
+- **[`Detect Vietnamese`](https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis)**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_vi.py)
+
 
 ### Output files produced:
 
