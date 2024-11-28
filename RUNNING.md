@@ -104,7 +104,7 @@ For those missing lyrics part, we will use Genous API to grab.
 ### Genius API 
 1. Create a account for [Genius API](https://docs.genius.com/)
 2. Create a New API Client in that account.
-3. Paste the 'API SECRET KEY' into the file [`get_lyrics_language.py`](cmpt732-spotify-project/ETL/language_etl/2_get_lyrics_language.py)
+3. Paste the 'API SECRET KEY' into the file [`get_lyrics_language.py`](cmpt732-spotify-project/ETL/language_etl/get_lyrics_language2.py)
 4. Run the code
 
 Then, we use two language library in python to detect the lyrics language: [`langdetect`](https://pypi.org/project/langdetect/) and [`pycld2`](https://pypi.org/project/pycld2/)
