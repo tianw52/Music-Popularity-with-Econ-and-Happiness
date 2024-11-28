@@ -43,7 +43,7 @@ The [`cleaned_data/econ_happiness_cleaned`](cleaned_data/econ_happiness_cleaned)
 Next, let's find the top 200 Spotify songs per country and year:
 
 ```
-INSERT COMMAND HERE
+spark-submit ETL/spotify_year.py path/to/your/kaggle/download cleaed_data/spotify_top200
 ```
 
 ### Output files produced:
