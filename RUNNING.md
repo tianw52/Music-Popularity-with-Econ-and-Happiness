@@ -48,14 +48,14 @@ spark-submit ETL/spotify_year.py path/to/your/kaggle/download cleaed_data/spotif
 
 ### Output files produced:
 
-- **[`cleaned_data/top200_year.csv`](cleaned_data/top200_year.csv)**: A CSV file that contains metadata (track ID, artists, duration, artist genres, total number of streams, average number of streams, number of weeks on chart, and our ranking out of 200) about the top 200 Spotify tracks per country and year.
+- **[`cleaned_data/spotify_clean`](cleaned_data/spotify_clean)**: A directory with the csv file that contains metadata (track ID, artists, duration, artist genres, total number of streams, average number of streams, number of weeks on chart, and our ranking out of 200) about the top 200 Spotify tracks per country and year.
 
 ---
 
-Using [`top200_year.csv`](cleaned_data/top200_year.csv) from the previous step, we need to extract the artist genres for each country and year:
+Using [`cleaned_data/spotify_clean`](cleaned_data/spotify_clean) from the previous step, we need to extract the artist genres for each country and year:
 
 ```
-spark-submit ETL/genre_artist_etl.py cleaned_data/top200_year.csv cleaned_data/genres_by_artist
+spark-submit ETL/genre_artist_etl.py cleaned_data/spotify_clean cleaned_data/genres_by_artist
 ```
 
 ### Output files produced:
@@ -72,7 +72,7 @@ spark-submit ETL/genre_song_etl.py cleaned_data/top10_genres.csv cleaned_data/ge
 
 ### Required input file:
 
-- **[`cleaned_data/top10_genres.csv`](cleaned_data/top10_genres.csv)**: A CSV file that contains information about the actual song genre of the top 10 songs per country and year. Created by manually looking up song genres from [`top200_year.csv`](cleaned_data/top200_year.csv) on [Rate Your Music](https://rateyourmusic.com/), one by one (source: us!)
+- **[`cleaned_data/top10_genres.csv`](cleaned_data/top10_genres.csv)**: A CSV file that contains information about the actual song genre of the top 10 songs per country and year. Created by manually looking up song genres from [`cleaned_data/spotify_clean`](cleaned_data/spotify_clean) on [Rate Your Music](https://rateyourmusic.com/), one by one (source: us!)
 
 ### Output files produced:
 
@@ -103,10 +103,15 @@ spark-submit Task-2/language_distribution.py Task-2/language_all.json cleaned_da
 
 ### Output files produced:
 
-- [`Task-2/plots`](Task-2/plots): summary of what/where this file is? Describe what the output is after running our code.
+All the plots created in Task 2 can be found in the [`Task-2/plots`](Task-2/plots) directory, which contains:
+
+- Two heatmaps for the language distirbution
+- Country-shaped wordcloud of language frequency for each country
 
 
 ## Task 3: Is there a correlation between the popularity of song moods—such as happy music or sad music—to the average happiness of people in different countries?
+
+Using the language, mood, songs, and happiness data we obtained before, we create a dataset used for analysis in R.
 
 ```
 prep_task3.py cleaned_data/languages_and_mood/moods_data cleaned_data/spotify_clean cleaned_data/econ_happiness_cleaned Task-3/happiness_w_mood_R
@@ -114,4 +119,4 @@ prep_task3.py cleaned_data/languages_and_mood/moods_data cleaned_data/spotify_cl
 
 ### Output files produced:
 
-- [`Task-3/happiness_w_mood_R`](Task-3/happiness_w_mood_R): summary of what/where this file is? Describe what the output is after running our code.
+- [`Task-3/happiness_w_mood_R`](Task-3/happiness_w_mood_R) directory contains the csv file that will be used in R later.
