@@ -95,7 +95,7 @@ The [`cleaned_data/genres_by_song`](cleaned_data/genres_by_song) directory, whic
 We will separate the songs with the existing lyrics dataset into [`with_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and [`no_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr) part by running on Amzon AWS EMR.
 
 ```
-s3://project-spotify-songs/1_seperate_data.py
+s3://project-spotify-songs/seperate_data1.py
 --conf spark.yarn.maxAppAttempts=1
 s3://project-spotify-songs/top200_song.csv s3://project-spotify-songs/lyrics_dataset.csv s3://project-spotify-songs/Sep_data_by_with_or_no_ly/with_lyr  s3://project-spotify-songs/Sep_data_by_with_or_no_ly/no_lyr 
 ```
@@ -104,15 +104,15 @@ For those missing lyrics part, we will use Genous API to grab.
 ### Genius API 
 1. Create a account for [Genius API](https://docs.genius.com/)
 2. Create a New API Client in that account.
-3. Paste the 'API SECRET KEY' into the file [`get_lyrics_language.py`](cmpt732-spotify-project/ETL/language_etl/get_lyrics_language2.py)
+3. Paste the 'API SECRET KEY' into the file [`get_lyrics_language.py`](ETL/language_etl/get_lyrics_language2.py)
 4. Run the code
 
 Then, we use two language library in python to detect the lyrics language: [`langdetect`](https://pypi.org/project/langdetect/) and [`pycld2`](https://pypi.org/project/pycld2/)
 
 ```
-spark-submit ETL/2_get_lyrics_language.py cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr cleaned_data/languages_and_mood/data_with_lyrics&lan
-spark-submit ETL/3_check_lan_miss.py cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr cleaned_data/languages_and_mood/data_with_lyrics&lan
-spark-submit ETL/4_sep_by_lan.py cleaned_data/languages_and_mood/data_with_lyrics&lan cleaned_data/languages_and_mood cleaned_data/languages_and_mood/parquet_by_lan
+spark-submit ETL/get_lyrics_language2.py cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr cleaned_data/languages_and_mood/data_with_lyrics&lan
+spark-submit ETL/check_lan_miss3.py cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr cleaned_data/languages_and_mood/data_with_lyrics&lan
+spark-submit ETL/sep_by_lan4.py cleaned_data/languages_and_mood/data_with_lyrics&lan cleaned_data/languages_and_mood cleaned_data/languages_and_mood/parquet_by_lan
 ```
 
 
