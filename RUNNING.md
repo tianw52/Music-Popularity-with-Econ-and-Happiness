@@ -91,16 +91,27 @@ The [`cleaned_data/genres_by_song`](cleaned_data/genres_by_song) directory, whic
 ### Required input file:
 - **[`spotify_clean`](cleaned_data/spotify_clean)**: A directory with the csv file that contains metadata (track ID, artists, duration, artist genres, total number of streams, average number of streams, number of weeks on chart, and our ranking out of 200) about the top 200 Spotify tracks per country and year.
 - **[`lyrics dataset`](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information)**: Dataset with some lyrics from genius website
-We will separate the songs with the existing lyrics dataset into [`with_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and [`no_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr) part.
+We will separate the songs with the existing lyrics dataset into [`with_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and [`no_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr) part by using Amzon AWS EMR to run the 
 
 For those missing lyrics part, we will use Genous API to grab.
 ### Genius API 
 1. Create a account for [Genius API](https://docs.genius.com/)
 2. Create a New API Client in that account.
-3. Paste the 'API SECRET KEY' into the file 
+3. Paste the 'API SECRET KEY' into the file [`get_lyrics_language.py`](cmpt732-spotify-project/ETL/language_etl/2_get_lyrics_language.py)
+4. Run the code
 
-For those missing lyrics part, we will use Genous API to grab.
+Then, we use two language library in python to detect the lyrics language: [`langdetect`](https://pypi.org/project/langdetect/) and [`pycld2`](https://pypi.org/project/pycld2/)
 
+```
+spark-submit ETL/genre_song_etl.py cleaned_data/top10_genres.csv cleaned_data/genres_by_song
+spark-submit ETL/genre_song_etl.py cleaned_data/top10_genres.csv cleaned_data/genres_by_song
+spark-submit ETL/genre_song_etl.py cleaned_data/top10_genres.csv cleaned_data/genres_by_song
+```
+
+
+### Output files produced:
+
+- **[`cleaned_data/spotify_clean`](cleaned_data/spotify_clean)**: A directory with the csv file that contains metadata (track ID, artists, duration, artist genres, total number of streams, average number of streams, number of weeks on chart, and our ranking out of 200) about the top 200 Spotify tracks per country and year.
 ## Sentiment Analysis:
 
 
