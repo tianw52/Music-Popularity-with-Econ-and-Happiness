@@ -87,6 +87,17 @@ spark-submit ETL/genre_song_etl.py cleaned_data/top10_genres.csv cleaned_data/ge
 The [`cleaned_data/genres_by_song`](cleaned_data/genres_by_song) directory, which contains Parquet files hive-partitioned by country with top song genres per year.
 
 
+## Language & Lyrics Data:
+We will separate the songs with the existing lyrics dataset into with_lycis [`cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyradd`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and no_lyrics part.
+
+### Genius API
+
+
+## Sentiment Analysis:
+
+
+
+
 ## Task 1: To what extent is the popularity of songs affected by economic factors—namely GDP, unemployment rates, and inflation?
 
 ```
