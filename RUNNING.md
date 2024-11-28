@@ -90,8 +90,15 @@ The [`cleaned_data/genres_by_song`](cleaned_data/genres_by_song) directory, whic
 
 ### Required input file:
 - **[`spotify_clean`](cleaned_data/spotify_clean)**: A directory with the csv file that contains metadata (track ID, artists, duration, artist genres, total number of streams, average number of streams, number of weeks on chart, and our ranking out of 200) about the top 200 Spotify tracks per country and year.
-- **[`lyrics dataset`](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information)**: Dataset with some lyrics from genius website
-We will separate the songs with the existing lyrics dataset into [`with_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and [`no_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr) part by using Amzon AWS EMR to run the 
+- **[`lyrics dataset`](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information)**: Dataset with some lyrics from genius website.
+
+We will separate the songs with the existing lyrics dataset into [`with_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and [`no_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr) part by running on Amzon AWS EMR.
+
+```
+s3://project-spotify-songs/1_seperate_data.py
+--conf spark.yarn.maxAppAttempts=1
+s3://project-spotify-songs/top200_song.csv s3://project-spotify-songs/lyrics_dataset.csv s3://project-spotify-songs/Sep_data_by_with_or_no_ly/with_lyr  s3://project-spotify-songs/Sep_data_by_with_or_no_ly/no_lyr 
+```
 
 For those missing lyrics part, we will use Genous API to grab.
 ### Genius API 
@@ -103,15 +110,17 @@ For those missing lyrics part, we will use Genous API to grab.
 Then, we use two language library in python to detect the lyrics language: [`langdetect`](https://pypi.org/project/langdetect/) and [`pycld2`](https://pypi.org/project/pycld2/)
 
 ```
-spark-submit ETL/genre_song_etl.py cleaned_data/top10_genres.csv cleaned_data/genres_by_song
-spark-submit ETL/genre_song_etl.py cleaned_data/top10_genres.csv cleaned_data/genres_by_song
-spark-submit ETL/genre_song_etl.py cleaned_data/top10_genres.csv cleaned_data/genres_by_song
+spark-submit ETL/2_get_lyrics_language.py cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr cleaned_data/languages_and_mood/data_with_lyrics&lan
+spark-submit ETL/3_check_lan_miss.py cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr cleaned_data/languages_and_mood/data_with_lyrics&lan
+spark-submit ETL/4_sep_by_lan.py cleaned_data/languages_and_mood/data_with_lyrics&lan cleaned_data/languages_and_mood cleaned_data/languages_and_mood/parquet_by_lan
 ```
 
 
 ### Output files produced:
 
-- **[`cleaned_data/spotify_clean`](cleaned_data/spotify_clean)**: A directory with the csv file that contains metadata (track ID, artists, duration, artist genres, total number of streams, average number of streams, number of weeks on chart, and our ranking out of 200) about the top 200 Spotify tracks per country and year.
+- **[`parquet_by_lan`](cleaned_data/languages_and_mood/parquet_by_lan)**: directory, which contains Parquet files hive-partitioned by language with track_id, language, lyrics
+
+
 ## Sentiment Analysis:
 
 
