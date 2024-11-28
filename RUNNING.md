@@ -137,8 +137,8 @@ We use [Hugging Face](https://huggingface.co/) Model to predict our lyrcis moods
 - **[`Detect Slovak`](https://huggingface.co/kinit/slovakbert-sentiment-twitter)**: Code is in [sentiment_slovak.py](sentiment_analysis_code/sentiment_slovak.py)
 - **[`Detect Swedish`](https://huggingface.co/KBLab/robust-swedish-sentiment-multiclass)**: Code is in [sentiment_sv.py](sentiment_analysis_code/sentiment_sv.py)
 - **[`Detect Tagalog`](https://huggingface.co/dost-asti/RoBERTa-tl-sentiment-analysis)**: Code is in [sentimenttagalog.py](sentiment_analysis_code/sentiment_tagalog.py)
-- **[`Detect Thai`](https://huggingface.co/SandboxBhh/sentiment-thai-text-model)**: Code is in [sentiment_th.py](sentiment_analysis_code/sentiment_sentiment_th.py)
-- **[`Detect Turkish`](https://huggingface.co/moarslan/bert-base-turkish-sentiment-analysis)**: Code is in [sentiment_tr.py](sentiment_analysis_code/sentiment_sentiment_tr.py)
+- **[`Detect Thai`](https://huggingface.co/SandboxBhh/sentiment-thai-text-model)**: Code is in [sentiment_th.py](sentiment_analysis_code/sentiment_th.py)
+- **[`Detect Turkish`](https://huggingface.co/moarslan/bert-base-turkish-sentiment-analysis)**: Code is in [sentiment_tr.py](sentiment_analysis_code/sentiment_tr.py)
 - **[`Detect Vietnamese`](https://huggingface.co/mr4/phobert-base-vi-sentiment-analysis)**: Code is in [sentiment_vi.py](sentiment_analysis_code/sentiment_vi.py)
 
 
