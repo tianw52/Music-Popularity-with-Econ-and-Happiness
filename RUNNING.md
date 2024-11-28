@@ -10,6 +10,12 @@ In addition to the usual PySpark setup required for this course, make sure that 
 - `seaborn`
 - `numpy`
 - `pandas`
+- `python-dotenv`
+- `langdetect`
+- `lyricsgenius`
+- `transformers`
+- `troch`
+- `pycld2`
 
 
 ## How do we run the project?
