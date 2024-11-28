@@ -109,9 +109,9 @@ spark-submit Task-2/language_distribution.py Task-2/language_all.json cleaned_da
 ## Task 3: Is there a correlation between the popularity of song moods—such as happy music or sad music—to the average happiness of people in different countries?
 
 ```
-INSERT COMMAND HERE
+prep_task3.py cleaned_data/languages_and_mood/moods_data cleaned_data/spotify_clean cleaned_data/econ_happiness_cleaned Task-3/happiness_w_mood_R
 ```
 
 ### Output files produced:
 
-- `file`: summary of what/where this file is? Describe what the output is after running our code.
+- [`Task-3/happiness_w_mood_R`](Task-3/happiness_w_mood_R): summary of what/where this file is? Describe what the output is after running our code.
