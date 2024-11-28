@@ -38,9 +38,7 @@ def clouding(data, title, mask = None, save_path = None):
 def main(lan_data, song_data, masks_dir, output):
 
   spark = SparkSession.builder.appName("Task 2 -- Language Distribution").getOrCreate()
-  #df_lan = spark.read.json("/Users/tian_mac/sfu/lab1/project/language_all.json")
-  df_lan = spark.read.json(lan_data)
-  #df_songs = spark.read.csv("/Users/tian_mac/sfu/lab1/project/df_top200_sorted/top200_year.csv", header=True)
+  df_lan = spark.read.parquet(lan_data)
   df_songs = spark.read.csv(song_data, header=True)
 
   df_lan.createOrReplaceTempView("lan")
