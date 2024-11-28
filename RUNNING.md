@@ -86,12 +86,18 @@ spark-submit ETL/genre_song_etl.py cleaned_data/top10_genres.csv cleaned_data/ge
 
 The [`cleaned_data/genres_by_song`](cleaned_data/genres_by_song) directory, which contains Parquet files hive-partitioned by country with top song genres per year.
 
-
 ## Language & Lyrics Data:
-We will separate the songs with the existing lyrics dataset into with_lycis [`with_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and no_lyrics [`no_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr) part.
 
+### Required input file:
+- **[`spotify_clean`](cleaned_data/spotify_clean)**: A directory with the csv file that contains metadata (track ID, artists, duration, artist genres, total number of streams, average number of streams, number of weeks on chart, and our ranking out of 200) about the top 200 Spotify tracks per country and year.
+- **[`lyrics dataset`](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information)**: Dataset with some lyrics from genius website
+We will separate the songs with the existing lyrics dataset into [`with_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and [`no_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr) part.
+
+For those missing lyrics part, we will use Genous API to grab.
 ### Genius API 
-Create a account for [Genius API](https://docs.genius.com/)
+1. Create a account for [Genius API](https://docs.genius.com/)
+2. Create a New API Client in that account.
+3. Paste the 'API SECRET KEY' into the file 
 
 For those missing lyrics part, we will use Genous API to grab.
 
