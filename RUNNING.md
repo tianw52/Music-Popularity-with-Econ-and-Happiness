@@ -88,10 +88,12 @@ The [`cleaned_data/genres_by_song`](cleaned_data/genres_by_song) directory, whic
 
 
 ## Language & Lyrics Data:
-We will separate the songs with the existing lyrics dataset into with_lycis [`cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyradd`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and no_lyrics part.
+We will separate the songs with the existing lyrics dataset into with_lycis [`with_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and no_lyrics [`no_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr) part.
 
-### Genius API
+### Genius API 
+Create a account for [Genius API](https://docs.genius.com/)
 
+For those missing lyrics part, we will use Genous API to grab.
 
 ## Sentiment Analysis:
 
