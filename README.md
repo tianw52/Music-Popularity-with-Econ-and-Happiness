@@ -20,7 +20,9 @@ All the raw data about Economics factors and happiness scores can be found in th
 - **[`Song Dataset`](https://www.kaggle.com/datasets/jfreyberg/spotify-chart-data)**: Database with details about top songs in each country per week in each year.
 - **[`Lyrics Dataset`](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information)**: Database with some lyrics from genius website.
 
-
+## Sentiment Analysis
+We use [Hugging Face](https://huggingface.co/) Model to predict our lyrcis moods, by seperate into 3 categories.
+All the related code in that [file](sentiment_analysis_code) is to run the Sentiment Analysis.
 
 ## POWERBI VISUALIZATION:
 We have a [`powerbi dashborad`](BI_dashboard/Visualization.pbix) to show what we found based on our cleaned_data.
