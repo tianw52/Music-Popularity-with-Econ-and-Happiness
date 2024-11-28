@@ -98,12 +98,12 @@ All of the Task 1 outputs can be found in the [`Task-1/output`](Task-1/output) d
 ## Task 2: Have songs written in certain languages risen in popularity internationally?
 
 ```
-INSERT COMMAND HERE
+spark-submit Task-2/language_distribution.py Task-2/language_all.json cleaned_data/spotify_clean Task-2/word_cloud_masks Task-2/plots
 ```
 
 ### Output files produced:
 
-- `file`: summary of what/where this file is? Describe what the output is after running our code.
+- [`Task-2/plots`](Task-2/plots): summary of what/where this file is? Describe what the output is after running our code.
 
 
 ## Task 3: Is there a correlation between the popularity of song moods—such as happy music or sad music—to the average happiness of people in different countries?
