@@ -14,7 +14,7 @@ In addition to the usual PySpark setup required for this course, make sure that 
 - `langdetect`
 - `lyricsgenius`
 - `transformers`
-- `troch`
+- `torch`
 - `pycld2`
 
 
