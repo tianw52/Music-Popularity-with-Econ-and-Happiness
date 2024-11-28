@@ -106,7 +106,7 @@ spark-submit Task-2/language_distribution.py Task-2/language_all.json cleaned_da
 All the plots created in Task 2 can be found in the [`Task-2/plots`](Task-2/plots) directory, which contains:
 
 - Two heatmaps for the language distirbution
-- Country-shaped wordcloud of language frequency for each country
+- Country-shaped wordclouds of language frequency of each country
 
 
 ## Task 3: Is there a correlation between the popularity of song moods—such as happy music or sad music—to the average happiness of people in different countries?
