@@ -34,6 +34,7 @@ All of the raw inputs required can be found in the [`pre-etl_data`](pre-etl_data
 - **[`unemployment`](pre-etl_data/unemployment) directory**: Contains an Excel file for each country that contains their annual unemployment rate (source: [Statista](https://www.statista.com/)).
 - **[`happiness.xls`](pre-etl_data/happiness.xls)**: An Excel file that contains the annual happiness scores out of 10 for each country (source: [World Happiness Report](https://worldhappiness.report/data/)).
 
+
 ### Output files produced:
 
 The [`cleaned_data/econ_happiness_cleaned`](cleaned_data/econ_happiness_cleaned) directory, which contains Parquet files hive-partitioned by country with economic data and happiness scores per year.
@@ -41,6 +42,8 @@ The [`cleaned_data/econ_happiness_cleaned`](cleaned_data/econ_happiness_cleaned)
 ---
 
 Next, let's find the top 200 Spotify songs per country and year:
+
+- **Note**: the dataset for spotify tracks is too big and needed to be downloaded from [Kaggle](https://www.kaggle.com/datasets/jfreyberg/spotify-chart-data). Pleaes adjust your input path accrodingly below.
 
 ```
 spark-submit ETL/spotify_year.py path/to/your/kaggle/download cleaed_data/spotify_top200
