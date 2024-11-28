@@ -101,7 +101,7 @@ s3://project-spotify-songs/top200_song.csv s3://project-spotify-songs/lyrics_dat
 ```
 
 For those missing lyrics part, we will use Genous API to grab.
-### Genius API 
+#### Running the Genius API 
 1. Create a account for [Genius API](https://docs.genius.com/)
 2. Create a New API Client in that account.
 3. Paste the 'API SECRET KEY' into the file [`get_lyrics_language.py`](ETL/language_etl/get_lyrics_language2.py)
@@ -122,7 +122,16 @@ spark-submit ETL/sep_by_lan4.py cleaned_data/languages_and_mood/data_with_lyrics
 
 
 ## Sentiment Analysis:
+### Required input file:
+- **[`parquet_by_lan`](cleaned_data/languages_and_mood/parquet_by_lan)**: directory, which contains Parquet files hive-partitioned by language with track_id, language, lyrics
 
+We use [Hugging Face](https://huggingface.co/) Model to predict our lyrcis moods, by seperate into 3 categories.
+
+- **[`Detect Bulgarian`](https://huggingface.co/DGurgurov/xlm-r_bulgarian_sentiment))**: Code is in [sentiment_bg.py](sentiment_analysis_code/sentiment_bg.py)
+
+### Output files produced:
+
+- **[`moods data`](cleaned_data/languages_and_mood/moods_data/)**: directory, which contains Parquet files hive-partitioned by language with track_id, moods, lyrics
 
 
 
