@@ -20,6 +20,20 @@ All the raw data about Economics factors and happiness scores can be found in th
 - **[`Song Dataset`](https://www.kaggle.com/datasets/jfreyberg/spotify-chart-data)**: Database with details about top songs in each country per week in each year.
 - **[`Lyrics Dataset`](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information)**: Database with some lyrics from genius website.
 
+
+
+## Language & Lyrics Data:
+
+We will separate the songs with the existing lyrics dataset into [`with_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and [`no_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr) part by running on Amzon AWS EMR.
+
+For those missing lyrics part, we will use Genous API to grab.
+
+Then, we use two language library in python to detect the lyrics language: [`langdetect`](https://pypi.org/project/langdetect/) and [`pycld2`](https://pypi.org/project/pycld2/)
+
+- **[`parquet_by_lan`](cleaned_data/languages_and_mood/parquet_by_lan)**: directory, which contains Parquet files hive-partitioned by language with track_id, language, lyrics
+
+
+
 ## Sentiment Analysis
 We use [Hugging Face](https://huggingface.co/) Model to predict our lyrcis moods, by seperate into 3 categories.
 All the related code in that [file](sentiment_analysis_code) is to run the Sentiment Analysis.
