@@ -40,4 +40,4 @@ All the related code in that [file](sentiment_analysis_code) is to run the Senti
 
 ## POWERBI VISUALIZATION:
 We have a [powerbi dashborad](BI_dashboard/Visualization.pbix) to show what we found based on our cleaned_data.
-(You can download and upload them in your sfu powerbi website to see and try it.)
+(You can download and upload them into your sfu powerbi website to see and try it.)
