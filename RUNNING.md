@@ -183,7 +183,7 @@ All the plots created in Task 2 can be found in the [`Task-2/plots`](Task-2/plot
 Using the language, mood, songs, and happiness data we obtained before, we created a dataset used for analysis in R.
 
 ```
-prep_task3.py cleaned_data/languages_and_mood/moods_data cleaned_data/spotify_clean cleaned_data/econ_happiness_cleaned Task-3/happiness_w_mood_R
+spark-submit Task3/prep_task3.py cleaned_data/languages_and_mood/moods_data cleaned_data/spotify_clean cleaned_data/econ_happiness_cleaned Task-3/happiness_w_mood_R
 ```
 
 ### Output files produced:
