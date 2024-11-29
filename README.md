@@ -42,5 +42,5 @@ All the related code in this [directory](sentiment_analysis_code) is to run the 
 
 ## PowerBI Visualization
 
-We also have a [PowerBI dashboard](BI_dashboard/Visualization.pbix) to show what we found based on our cleaned data.
+We also have a [PowerBI dashboard](<BI dashboard/Visualization.pbix>) to show what we found based on our cleaned data.
 You can download the file and upload it to your [SFU PowerBI workspace](https://app.powerbi.com/groups/me/list?experience=power-bi&clientSideAuth=0) to view and interact with it.
