@@ -193,6 +193,7 @@ prep_task3.py cleaned_data/languages_and_mood/moods_data cleaned_data/spotify_cl
 
 ### Instructions for R:
 
+- In your preferred R IDE (eg. RStudio), load the `rmd` file **[`Task-3/Task3.rmd`](Task-3/Task3.rmd)**
 - Set **[`Task-3/happiness_w_mood_R`](Task-3/happiness_w_mood_R)** as your working directory and load the data
 
 ```
