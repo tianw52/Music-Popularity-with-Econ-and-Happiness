@@ -189,3 +189,14 @@ prep_task3.py cleaned_data/languages_and_mood/moods_data cleaned_data/spotify_cl
 ### Output files produced:
 
 - **[`Task-3/happiness_w_mood_R`](Task-3/happiness_w_mood_R)**: Directory that contains the CSV file to be used in R later.
+
+
+### Instructions for R:
+
+- Set **[`Task-3/happiness_w_mood_R`](Task-3/happiness_w_mood_R)** as your working directory and load the data
+
+```
+df <- read.csv("happiness_w_mood_R/happiness_w_mood_R.csv")
+```
+
+- Click knit, a pdf file will be outputed **[`Task-3/happiness_w_mood_R`](Task-3/happiness_w_mood_R)**
