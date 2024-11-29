@@ -7,7 +7,7 @@ Welcome to our repository! Our project is an exploration of recent trends in son
 
 Please see [`RUNNING.md`](RUNNING.md).
 
-## pre-etl data
+## Pre-etl data
 
 All the raw data about Economics factors and happiness scores can be found in the [pre-etl_data](pre-etl_data) directory, which contains:
 
