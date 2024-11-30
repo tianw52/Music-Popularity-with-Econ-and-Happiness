@@ -24,16 +24,9 @@ All the raw data about economic factors and happiness scores can be found in the
 
 ## Language & Lyrics Data
 
-We will separate the songs that have and do not have existing lyrics from the Kaggle dataset into [`with_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/with_lyr) and [`no_lyrics`](cleaned_data/languages_and_mood/Sep_data_by_with_or_no_ly/no_lyr) respectively and run it on Amazon AWS EMR.
+We use the [Genius API](https://docs.genius.com/) to grab songs with lyrics.
 
-We will also use the [Genius API](https://docs.genius.com/) to grab songs with missing lyrics.
-
-Then, we use two language libraries in Python to detect the language of the lyrics: [`langdetect`](https://pypi.org/project/langdetect/) and [`pycld2`](https://pypi.org/project/pycld2/).
-
-### Output
-
-- **[`parquet_by_lan`](cleaned_data/languages_and_mood/parquet_by_lan)**: directory, which contains Parquet files hive-partitioned by language with track_id, language, and lyrics.
-
+Then, we use two language libraries in Python to detect the language of the lyrics: [`langdetect`](https://pypi.org/project/langdetect/) and [`pycld2`](https://pypi.org/project/pycld2/) to get [`parquet_by_lan`](cleaned_data/languages_and_mood/parquet_by_lan)
 
 
 ## Sentiment Analysis
