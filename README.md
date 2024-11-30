@@ -21,13 +21,11 @@ All the raw data about economic factors and happiness scores can be found in the
 - **[`Lyrics Dataset`](https://www.kaggle.com/datasets/carlosgdcj/genius-song-lyrics-with-language-information)**: Database with some lyrics from the Genius website.
 
 
-## Language & Lyrics Data
+## [Language & Lyrics Data](cleaned_data/languages_and_mood/parquet_by_lan)
 
 We use the [Genius API](https://docs.genius.com/) to grab songs with lyrics.
 
-Then, we use two language libraries in Python to detect the language of the lyrics: [`langdetect`](https://pypi.org/project/langdetect/) and [`pycld2`](https://pypi.org/project/pycld2/).
-[Code](ETL/language_etl)
-[`Results`](cleaned_data/languages_and_mood/parquet_by_lan)
+Then, we use two language libraries in Python to detect the language of the lyrics: [`langdetect`](https://pypi.org/project/langdetect/) and [`pycld2`](https://pypi.org/project/pycld2/)by using [language_etl](ETL/language_etl)
 
 
 ## Sentiment Analysis
