@@ -10,6 +10,10 @@ Please see [`RUNNING.md`](RUNNING.md).
 
 Please see [`report.pdf`](report.pdf).
 
+## Video Presentation
+
+Click [`here`](https://youtu.be/LejNuE8geKo) to watch our presentation.
+
 ## Pre-ETL Data
 
 All the raw data about economic factors and happiness scores can be found in the [pre-etl_data](pre-etl_data) directory, which contains:
