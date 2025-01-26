@@ -6,6 +6,10 @@ Welcome to our repository! Our project is an exploration of recent trends in son
 
 Please see [`RUNNING.md`](RUNNING.md).
 
+## Final Report
+
+Please see [`lab project report.pdf`](lab project report.pdf).
+
 ## Pre-ETL Data
 
 All the raw data about economic factors and happiness scores can be found in the [pre-etl_data](pre-etl_data) directory, which contains:
