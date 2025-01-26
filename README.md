@@ -8,7 +8,7 @@ Please see [`RUNNING.md`](RUNNING.md).
 
 ## Final Report
 
-Please see ['report.pdf`](report.pdf).
+Please see [`report.pdf`](report.pdf).
 
 ## Pre-ETL Data
 
